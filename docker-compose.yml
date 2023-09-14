@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  ubuntu:
+    image: gnuhub/10003-deepin-docker-beige-www:latest
+    ports:
+      - "10322:22"
+      - "19111:9111"
+    volumes:
+      - ./:/home/www/dev
+    environment:
+      dev_version: deepin
+    command: /1.start.sh
+

@@ -1,0 +1,12 @@
+Loading repository data...
+Reading installed packages...
+Repository  | Name                                | Category    | Severity  | Interactive | Status     | Summary
+------------+-------------------------------------+-------------+-----------+-------------+------------+------------------------------------
+USTC:UPDATE | update-test-32bit-pkg               | recommended | moderate  | ---         | not needed | Test-update for openSUSE Tumbleweed
+USTC:UPDATE | update-test-affects-package-manager | recommended | moderate  | restart     | not needed | Test-update for openSUSE Tumbleweed
+USTC:UPDATE | update-test-feature                 | feature     | moderate  | ---         | not needed | Test-update for openSUSE Tumbleweed
+USTC:UPDATE | update-test-optional                | optional    | moderate  | ---         | not needed | Test-update for openSUSE Tumbleweed
+USTC:UPDATE | update-test-reboot-needed           | recommended | important | reboot      | not needed | Test-update for openSUSE Tumbleweed
+USTC:UPDATE | update-test-relogin-suggested       | recommended | moderate  | ---         | not needed | Test-update for openSUSE Tumbleweed
+USTC:UPDATE | update-test-security                | security    | critical  | ---         | not needed | Test-update for openSUSE Tumbleweed
+USTC:UPDATE | Update-test-trivial                 | recommended | low       | ---         | not needed | Test-update for openSUSE Tumbleweed

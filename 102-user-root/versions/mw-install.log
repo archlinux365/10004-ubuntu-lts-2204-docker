@@ -1,0 +1,250 @@
+use system: Linux
+local:cn
+bash: line 101: unzip: command not found
+mv: cannot stat '/tmp/mdserver-web': No such file or directory
+acme.sh-master/
+acme.sh-master/.github/
+acme.sh-master/.github/FUNDING.yml
+acme.sh-master/.github/ISSUE_TEMPLATE.md
+acme.sh-master/.github/PULL_REQUEST_TEMPLATE.md
+acme.sh-master/.github/workflows/
+acme.sh-master/.github/workflows/DNS.yml
+acme.sh-master/.github/workflows/DragonFlyBSD.yml
+acme.sh-master/.github/workflows/FreeBSD.yml
+acme.sh-master/.github/workflows/Linux.yml
+acme.sh-master/.github/workflows/MacOS.yml
+acme.sh-master/.github/workflows/NetBSD.yml
+acme.sh-master/.github/workflows/OpenBSD.yml
+acme.sh-master/.github/workflows/PebbleStrict.yml
+acme.sh-master/.github/workflows/Solaris.yml
+acme.sh-master/.github/workflows/Ubuntu.yml
+acme.sh-master/.github/workflows/Windows.yml
+acme.sh-master/.github/workflows/dockerhub.yml
+acme.sh-master/.github/workflows/issue.yml
+acme.sh-master/.github/workflows/pr_dns.yml
+acme.sh-master/.github/workflows/shellcheck.yml
+acme.sh-master/Dockerfile
+acme.sh-master/LICENSE.md
+acme.sh-master/README.md
+acme.sh-master/acme.sh
+acme.sh-master/deploy/
+acme.sh-master/deploy/README.md
+acme.sh-master/deploy/apache.sh
+acme.sh-master/deploy/cleverreach.sh
+acme.sh-master/deploy/consul.sh
+acme.sh-master/deploy/cpanel_uapi.sh
+acme.sh-master/deploy/docker.sh
+acme.sh-master/deploy/dovecot.sh
+acme.sh-master/deploy/exim4.sh
+acme.sh-master/deploy/fritzbox.sh
+acme.sh-master/deploy/gcore_cdn.sh
+acme.sh-master/deploy/gitlab.sh
+acme.sh-master/deploy/haproxy.sh
+acme.sh-master/deploy/keychain.sh
+acme.sh-master/deploy/kong.sh
+acme.sh-master/deploy/lighttpd.sh
+acme.sh-master/deploy/mailcow.sh
+acme.sh-master/deploy/myapi.sh
+acme.sh-master/deploy/mydevil.sh
+acme.sh-master/deploy/mysqld.sh
+acme.sh-master/deploy/nginx.sh
+acme.sh-master/deploy/openmediavault.sh
+acme.sh-master/deploy/opensshd.sh
+acme.sh-master/deploy/openstack.sh
+acme.sh-master/deploy/panos.sh
+acme.sh-master/deploy/peplink.sh
+acme.sh-master/deploy/proxmoxve.sh
+acme.sh-master/deploy/pureftpd.sh
+acme.sh-master/deploy/qiniu.sh
+acme.sh-master/deploy/routeros.sh
+acme.sh-master/deploy/ssh.sh
+acme.sh-master/deploy/strongswan.sh
+acme.sh-master/deploy/synology_dsm.sh
+acme.sh-master/deploy/truenas.sh
+acme.sh-master/deploy/unifi.sh
+acme.sh-master/deploy/vault.sh
+acme.sh-master/deploy/vault_cli.sh
+acme.sh-master/deploy/vsftpd.sh
+acme.sh-master/dnsapi/
+acme.sh-master/dnsapi/README.md
+acme.sh-master/dnsapi/dns_1984hosting.sh
+acme.sh-master/dnsapi/dns_acmedns.sh
+acme.sh-master/dnsapi/dns_acmeproxy.sh
+acme.sh-master/dnsapi/dns_active24.sh
+acme.sh-master/dnsapi/dns_ad.sh
+acme.sh-master/dnsapi/dns_ali.sh
+acme.sh-master/dnsapi/dns_anx.sh
+acme.sh-master/dnsapi/dns_arvan.sh
+acme.sh-master/dnsapi/dns_aurora.sh
+acme.sh-master/dnsapi/dns_autodns.sh
+acme.sh-master/dnsapi/dns_aws.sh
+acme.sh-master/dnsapi/dns_azion.sh
+acme.sh-master/dnsapi/dns_azure.sh
+acme.sh-master/dnsapi/dns_cf.sh
+acme.sh-master/dnsapi/dns_clouddns.sh
+acme.sh-master/dnsapi/dns_cloudns.sh
+acme.sh-master/dnsapi/dns_cn.sh
+acme.sh-master/dnsapi/dns_conoha.sh
+acme.sh-master/dnsapi/dns_constellix.sh
+acme.sh-master/dnsapi/dns_cpanel.sh
+acme.sh-master/dnsapi/dns_curanet.sh
+acme.sh-master/dnsapi/dns_cyon.sh
+acme.sh-master/dnsapi/dns_da.sh
+acme.sh-master/dnsapi/dns_ddnss.sh
+acme.sh-master/dnsapi/dns_desec.sh
+acme.sh-master/dnsapi/dns_df.sh
+acme.sh-master/dnsapi/dns_dgon.sh
+acme.sh-master/dnsapi/dns_dnshome.sh
+acme.sh-master/dnsapi/dns_dnsimple.sh
+acme.sh-master/dnsapi/dns_dnsservices.sh
+acme.sh-master/dnsapi/dns_do.sh
+acme.sh-master/dnsapi/dns_doapi.sh
+acme.sh-master/dnsapi/dns_domeneshop.sh
+acme.sh-master/dnsapi/dns_dp.sh
+acme.sh-master/dnsapi/dns_dpi.sh
+acme.sh-master/dnsapi/dns_dreamhost.sh
+acme.sh-master/dnsapi/dns_duckdns.sh
+acme.sh-master/dnsapi/dns_durabledns.sh
+acme.sh-master/dnsapi/dns_dyn.sh
+acme.sh-master/dnsapi/dns_dynu.sh
+acme.sh-master/dnsapi/dns_dynv6.sh
+acme.sh-master/dnsapi/dns_easydns.sh
+acme.sh-master/dnsapi/dns_edgedns.sh
+acme.sh-master/dnsapi/dns_euserv.sh
+acme.sh-master/dnsapi/dns_exoscale.sh
+acme.sh-master/dnsapi/dns_fornex.sh
+acme.sh-master/dnsapi/dns_freedns.sh
+acme.sh-master/dnsapi/dns_gandi_livedns.sh
+acme.sh-master/dnsapi/dns_gcloud.sh
+acme.sh-master/dnsapi/dns_gd.sh
+acme.sh-master/dnsapi/dns_geoscaling.sh
+acme.sh-master/dnsapi/dns_he.sh
+acme.sh-master/dnsapi/dns_hetzner.sh
+acme.sh-master/dnsapi/dns_hexonet.sh
+acme.sh-master/dnsapi/dns_hostingde.sh
+acme.sh-master/dnsapi/dns_huaweicloud.sh
+acme.sh-master/dnsapi/dns_infoblox.sh
+acme.sh-master/dnsapi/dns_infomaniak.sh
+acme.sh-master/dnsapi/dns_internetbs.sh
+acme.sh-master/dnsapi/dns_inwx.sh
+acme.sh-master/dnsapi/dns_ionos.sh
+acme.sh-master/dnsapi/dns_ispconfig.sh
+acme.sh-master/dnsapi/dns_jd.sh
+acme.sh-master/dnsapi/dns_joker.sh
+acme.sh-master/dnsapi/dns_kappernet.sh
+acme.sh-master/dnsapi/dns_kas.sh
+acme.sh-master/dnsapi/dns_kinghost.sh
+acme.sh-master/dnsapi/dns_knot.sh
+acme.sh-master/dnsapi/dns_leaseweb.sh
+acme.sh-master/dnsapi/dns_lexicon.sh
+acme.sh-master/dnsapi/dns_linode.sh
+acme.sh-master/dnsapi/dns_linode_v4.sh
+acme.sh-master/dnsapi/dns_loopia.sh
+acme.sh-master/dnsapi/dns_lua.sh
+acme.sh-master/dnsapi/dns_maradns.sh
+acme.sh-master/dnsapi/dns_me.sh
+acme.sh-master/dnsapi/dns_miab.sh
+acme.sh-master/dnsapi/dns_misaka.sh
+acme.sh-master/dnsapi/dns_myapi.sh
+acme.sh-master/dnsapi/dns_mydevil.sh
+acme.sh-master/dnsapi/dns_mydnsjp.sh
+acme.sh-master/dnsapi/dns_mythic_beasts.sh
+acme.sh-master/dnsapi/dns_namecheap.sh
+acme.sh-master/dnsapi/dns_namecom.sh
+acme.sh-master/dnsapi/dns_namesilo.sh
+acme.sh-master/dnsapi/dns_nederhost.sh
+acme.sh-master/dnsapi/dns_neodigit.sh
+acme.sh-master/dnsapi/dns_netcup.sh
+acme.sh-master/dnsapi/dns_netlify.sh
+acme.sh-master/dnsapi/dns_nic.sh
+acme.sh-master/dnsapi/dns_njalla.sh
+acme.sh-master/dnsapi/dns_nm.sh
+acme.sh-master/dnsapi/dns_nsd.sh
+acme.sh-master/dnsapi/dns_nsone.sh
+acme.sh-master/dnsapi/dns_nsupdate.sh
+acme.sh-master/dnsapi/dns_nw.sh
+acme.sh-master/dnsapi/dns_oci.sh
+acme.sh-master/dnsapi/dns_one.sh
+acme.sh-master/dnsapi/dns_online.sh
+acme.sh-master/dnsapi/dns_openprovider.sh
+acme.sh-master/dnsapi/dns_openstack.sh
+acme.sh-master/dnsapi/dns_opnsense.sh
+acme.sh-master/dnsapi/dns_ovh.sh
+acme.sh-master/dnsapi/dns_pdns.sh
+acme.sh-master/dnsapi/dns_pleskxml.sh
+acme.sh-master/dnsapi/dns_pointhq.sh
+acme.sh-master/dnsapi/dns_porkbun.sh
+acme.sh-master/dnsapi/dns_rackcorp.sh
+acme.sh-master/dnsapi/dns_rackspace.sh
+acme.sh-master/dnsapi/dns_rcode0.sh
+acme.sh-master/dnsapi/dns_regru.sh
+acme.sh-master/dnsapi/dns_scaleway.sh
+acme.sh-master/dnsapi/dns_schlundtech.sh
+acme.sh-master/dnsapi/dns_selectel.sh
+acme.sh-master/dnsapi/dns_servercow.sh
+acme.sh-master/dnsapi/dns_simply.sh
+acme.sh-master/dnsapi/dns_tele3.sh
+acme.sh-master/dnsapi/dns_transip.sh
+acme.sh-master/dnsapi/dns_udr.sh
+acme.sh-master/dnsapi/dns_ultra.sh
+acme.sh-master/dnsapi/dns_unoeuro.sh
+acme.sh-master/dnsapi/dns_variomedia.sh
+acme.sh-master/dnsapi/dns_veesp.sh
+acme.sh-master/dnsapi/dns_vercel.sh
+acme.sh-master/dnsapi/dns_vscale.sh
+acme.sh-master/dnsapi/dns_vultr.sh
+acme.sh-master/dnsapi/dns_websupport.sh
+acme.sh-master/dnsapi/dns_world4you.sh
+acme.sh-master/dnsapi/dns_yandex.sh
+acme.sh-master/dnsapi/dns_zilore.sh
+acme.sh-master/dnsapi/dns_zone.sh
+acme.sh-master/dnsapi/dns_zonomi.sh
+acme.sh-master/notify/
+acme.sh-master/notify/bark.sh
+acme.sh-master/notify/callmebotWhatsApp.sh
+acme.sh-master/notify/cqhttp.sh
+acme.sh-master/notify/dingtalk.sh
+acme.sh-master/notify/discord.sh
+acme.sh-master/notify/feishu.sh
+acme.sh-master/notify/gotify.sh
+acme.sh-master/notify/ifttt.sh
+acme.sh-master/notify/mail.sh
+acme.sh-master/notify/mailgun.sh
+acme.sh-master/notify/pop.sh
+acme.sh-master/notify/postmark.sh
+acme.sh-master/notify/pushbullet.sh
+acme.sh-master/notify/pushover.sh
+acme.sh-master/notify/sendgrid.sh
+acme.sh-master/notify/slack.sh
+acme.sh-master/notify/slack_app.sh
+acme.sh-master/notify/smtp.sh
+acme.sh-master/notify/teams.sh
+acme.sh-master/notify/telegram.sh
+acme.sh-master/notify/weixin_work.sh
+acme.sh-master/notify/xmpp.sh
+[Wed Sep 13 10:15:17 UTC 2023] It is recommended to install crontab first. try to install 'cron, crontab, crontabs or vixie-cron'.
+[Wed Sep 13 10:15:17 UTC 2023] We need to set cron job to renew the certs automatically.
+[Wed Sep 13 10:15:17 UTC 2023] Otherwise, your certs will not be able to be renewed automatically.
+[Wed Sep 13 10:15:17 UTC 2023] Please add '--force' and try install again to go without crontab.
+[Wed Sep 13 10:15:17 UTC 2023] ./acme.sh --install --force
+[Wed Sep 13 10:15:17 UTC 2023] Pre-check failed, can not install.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1032    0  1032    0     0   5526      0 --:--:-- --:--:-- --:--:--  5548
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  7  216k    7 16375    0     0   106k      0  0:00:02 --:--:--  0:00:02  105k100  216k  100  216k    0     0  1203k      0 --:--:-- --:--:-- --:--:-- 1202k
+[Wed Sep 13 10:15:17 UTC 2023] Installing from online archive.
+[Wed Sep 13 10:15:17 UTC 2023] Downloading https://github.com/acmesh-official/acme.sh/archive/master.tar.gz
+[Wed Sep 13 10:15:18 UTC 2023] Extracting master.tar.gz
+[Wed Sep 13 10:15:18 UTC 2023] It is recommended to install crontab first. try to install 'cron, crontab, crontabs or vixie-cron'.
+[Wed Sep 13 10:15:18 UTC 2023] We need to set cron job to renew the certs automatically.
+[Wed Sep 13 10:15:18 UTC 2023] Otherwise, your certs will not be able to be renewed automatically.
+[Wed Sep 13 10:15:18 UTC 2023] Please add '--force' and try install again to go without crontab.
+[Wed Sep 13 10:15:18 UTC 2023] ./acme.sh --install --force
+[Wed Sep 13 10:15:18 UTC 2023] Pre-check failed, can not install.
+use system version: unknow
+bash: line 129: cd: /www/server/mdserver-web: No such file or directory
+bash: line 137: cd: /www/server/mdserver-web: No such file or directory
+bash: line 138: ps: command not found
+.....................start mw fail

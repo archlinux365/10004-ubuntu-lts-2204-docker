@@ -1,0 +1,17 @@
+[General]
+
+arch=amd64
+directory=/ubuntu-rootfs
+cleanup=true
+noauth=false
+unpack=true
+explicitsuite=false
+multiarch=
+aptsources=ubuntu
+bootstrap=ubuntu
+
+[ubuntu]
+
+packages=apt ca-certificates
+source=https://mirrors.tuna.tsinghua.edu.cn/ubuntu/
+suite=jammy

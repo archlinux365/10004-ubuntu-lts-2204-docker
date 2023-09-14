@@ -1,0 +1,48 @@
+name: docker build
+
+on:
+  push:
+    branches:
+      - 'root'
+  schedule:
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+
+jobs:
+  build-docker:
+    name: Build Docker Image
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.MY_ARCH_SSH }} 
+          known_hosts: 'gitlab.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFSMqzJeV9rUzU4kWitGjeR4PWSa29SPqJ1fVkhtj3Hw9xjLVXVYrU9QlYWrOLXBpQ6KWjbjTDTdDkoohFzgbEY='
+      - name: Check Out Repo 
+        uses: actions/checkout@v3
+      - name: Login to Github Packages
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.MY_GITHUB_TOKEN }}
+      # - name: Login to Aliyun Packages
+      #   uses: docker/login-action@v2
+      #   with:
+      #     registry: registry.cn-hangzhou.aliyuncs.com
+      #     username: ${{ secrets.MY_ALI_USER }}
+      #     password: ${{ secrets.MY_ALI_PASSWORD }}
+      - name: Login to tx Packages
+        uses: docker/login-action@v2
+        with:
+          registry: hkccr.ccs.tencentyun.com
+          username: ${{ secrets.MY_TX_USER }}
+          password: ${{ secrets.MY_TX_PASSWORD }}
+      - name: Login to dockerhub
+        uses: docker/login-action@v2
+        with:
+          registry: docker.io
+          username: ${{ secrets.MY_HUB_USER }}
+          password: ${{ secrets.MY_HUB_PASSWORD }}
+      - name: build docker
+        run: ./ci.sh
