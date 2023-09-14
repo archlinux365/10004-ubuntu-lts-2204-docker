@@ -1,11 +1,18 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -x
 
-set -e
+export CMD_PATH=$(cd `dirname $0`; pwd)
+export PROJECT_NAME="${CMD_PATH##*/}"
+export TERM=xterm-256color
 
-apt update
+echo $PROJECT_NAME
+cd $CMD_PATH
+
+apt update -y
 
 export DEBIAN_FRONTEND=noninteractive
 
 apt install multistrap -y
+mkdir rootfs
 multistrap -f jammy.multistrap
 
