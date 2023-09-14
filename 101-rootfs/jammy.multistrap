@@ -1,5 +1,5 @@
 [General]
-arch=armhf
+arch=amd64
 directory=rootfs
 cleanup=true
 unpack=true
@@ -12,7 +12,7 @@ bootstrap=Ubuntu Basic Net Utils Editors Other
 source=http://ports.ubuntu.com
 keyring=ubuntu-keyring
 components=main restricted universe multiverse
-suite=bionic
+suite=jammy
 omitdebsrc=true
 packages=
 
