@@ -12,16 +12,17 @@
 
 ## 1 文件夹说明
 
-1. beige 构建基础rootfs
-1. beige-root 继承 beige镜像 安装配置
-1. beige-www 继承 beige-root镜像 安装配置
+1. 101-rootfs 构建基础rootfs
+1. 102-user-root 继承 101-rootfs镜像 安装配置
+1. 103-user-www 继承 102-user-root 镜像 安装配置
+1. 104-desktop-vnc 继承 103-user-www 镜像 安装配置
+1. 105-desktop-rdp 继承 103-user-www 镜像 安装配置
 
 ## 2 开发指南
 
-1. 放文件独立脚本 beige-root-->files
-1. 调用脚本拷贝文件到系统内 beige-root-->files/docker-install.root.sh
-1. 放文件独立脚本 beige-www-->files
-1. 调用脚本拷贝文件到系统内 beige-www-->files/docker-install.www.sh
+1. 放文件独立脚本 files
+1. 调用脚本拷贝文件到系统内 files/docker-install.root.sh files/docker-install.www.sh
+
 
 ## 3 101-rootfs 干净纯净rootfs
 
