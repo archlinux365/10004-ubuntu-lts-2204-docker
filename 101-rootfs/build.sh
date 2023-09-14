@@ -12,7 +12,5 @@ apt update -y
 
 export DEBIAN_FRONTEND=noninteractive
 
-apt install multistrap -y
-mkdir rootfs
-multistrap -f jammy.multistrap
-
+apt install debootstrap -y
+debootstrap --no-check-gpg --variant=minbase --include=usrmerge --components=main,multiverse,restricted,universe jammy /jammy-rootfs http://us.archive.ubuntu.com/ubuntu/
