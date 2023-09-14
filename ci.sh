@@ -61,7 +61,7 @@ function get_versions()
 	docker cp ${cid}:/root/versions/ ./versions/
 }
 
-# get_versions beige-root
+get_versions 102-user-root
 
 
 cd ~/

@@ -1,4 +1,4 @@
-FROM ghcr.io/archlinux365/10003-deepin-docker-beige-root:latest
+FROM ghcr.io/archlinux365/10004-ubuntu-lts-2204-docker-102-user-root:latest
 
 # 1
 ENV TERM=xterm-256color
