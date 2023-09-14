@@ -44,11 +44,11 @@ docker push gnuhub/$PROJECT_NAME-$1:latest
 }
 
 docker_build 101-rootfs
-# docker_build 102-user-root
+docker_build 102-user-root
 # docker_build 103-user-www
 
 cd ~/
-git clone git@github.com:archlinux365/10004-ubuntu-docker.git
+git clone git@github.com:archlinux365/10004-ubuntu-lts-2204-docker.git
 
 
 function get_versions()
@@ -65,9 +65,9 @@ function get_versions()
 
 
 cd ~/
-cd 10004-ubuntu-docker
+cd 10004-ubuntu-lts-2204-docker
 git add .
 git commit -a -m "CI-BOT:$(date +%Y.%m.%d-%H%M%S)-$GITHUB_REF_NAME-$GITHUB_RUN_NUMBER"
 git push origin HEAD
 
-timeout 200 docker-compose up
+# timeout 200 docker-compose up
