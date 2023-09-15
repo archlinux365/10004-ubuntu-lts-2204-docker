@@ -24,6 +24,12 @@ apt install -y osc
 apt install -y supervisor
 apt install -y rsync
 apt install -y sudo
+
+apt install -y kpartx
+apt install -y kpartx-root
+apt install -y extlinux
+
+
 rsync -avzP ./supervisord/ /etc/
 chmod +x 1.start.sh
 cp -fv ./1.start.sh /1.start.sh
