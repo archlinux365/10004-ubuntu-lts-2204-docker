@@ -592,7 +592,7 @@ libsqlite3-0/jammy-updates,jammy-security,now 3.37.2-2ubuntu0.1 amd64 [installed
 libsqlite3-dev/jammy-updates,jammy-security,now 3.37.2-2ubuntu0.1 amd64 [installed]
 libss2/jammy,now 1.46.5-2ubuntu1 amd64 [installed,upgradable to: 1.46.5-2ubuntu1.1]
 libssh-4/jammy-updates,jammy-security,now 0.9.6-2ubuntu0.22.04.1 amd64 [installed,automatic]
-libssl-dev/jammy-updates,jammy-security,now 3.0.2-0ubuntu1.10 amd64 [installed]
+libssl-dev/jammy-updates,jammy-security,now 3.0.2-0ubuntu1.10 amd64 [installed,automatic]
 libssl3/jammy-updates,jammy-security,now 3.0.2-0ubuntu1.10 amd64 [installed]
 libstdc++-11-dev/jammy-updates,jammy-security,now 11.4.0-1ubuntu1~22.04 amd64 [installed,automatic]
 libstdc++6/jammy-updates,jammy-security,now 12.3.0-1ubuntu1~22.04 amd64 [installed]
