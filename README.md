@@ -9,6 +9,16 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-102-user-root.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-102-user-root/)
 
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-103-user-www.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-103-user-www/)
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-104-desktop-vnc.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-104-desktop-vnc/)
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-105-desktop-rdp.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-105-desktop-rdp/)
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-106-desktop-dde.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-106-desktop-dde/)
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-107-actions-runner.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-107-actions-runner/)
+
 ## 参与项目最重要的事情： 读代码 读代码 读代码
 
 1. github ci:actions->.github/workflows/ci.yml 只是登陆docker仓库调用ci.sh
@@ -37,11 +47,11 @@
 
 1. 101-rootfs 构建基础rootfs [![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-101-rootfs.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-101-rootfs/)
 1. 102-user-root 继承 101-rootfs镜像 安装配置 [![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-102-user-root.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-102-user-root/)
-1. 103-user-www 继承 102-user-root 镜像 安装配置
-1. 104-desktop-vnc 继承 103-user-www 镜像 安装配置
-1. 105-desktop-rdp 继承 103-user-www 镜像 安装配置
-1. 106-desktop-dde 继承 103-user-www 镜像 安装配置
-1. 107-actions-runner 继承 103-user-root 镜像 使用runner用户 安装配置
+1. 103-user-www 继承 102-user-root 镜像 安装配置 [![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-103-user-www.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-103-user-www/)
+1. 104-desktop-vnc 继承 103-user-www 镜像 安装配置 [![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-104-desktop-vnc.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-104-desktop-vnc/)
+1. 105-desktop-rdp 继承 103-user-www 镜像 安装配置 [![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-105-desktop-rdp.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-105-desktop-rdp/)
+1. 106-desktop-dde 继承 103-user-www 镜像 安装配置 [![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-106-desktop-dde.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-106-desktop-dde/)
+1. 107-actions-runner 继承 103-user-root 镜像 使用runner用户 安装配置 [![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-107-actions-runner.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-107-actions-runner/)
 
 
 ## 2 开发指南
