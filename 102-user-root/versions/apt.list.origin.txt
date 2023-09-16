@@ -39392,7 +39392,7 @@ libssh-gcrypt-4/jammy-updates,jammy-security 0.9.6-2ubuntu0.22.04.1 amd64
 libssh-gcrypt-dev/jammy-updates,jammy-security 0.9.6-2ubuntu0.22.04.1 amd64
 libssh2-1-dev/jammy 1.10.0-3 amd64
 libssh2-1/jammy 1.10.0-3 amd64
-libssl-dev/jammy-updates,jammy-security,now 3.0.2-0ubuntu1.10 amd64 [installed,automatic]
+libssl-dev/jammy-updates,jammy-security,now 3.0.2-0ubuntu1.10 amd64 [installed]
 libssl-doc/jammy-updates,jammy-security 3.0.2-0ubuntu1.10 all
 libssl-ocaml-dev/jammy 0.5.10-1build2 amd64
 libssl-ocaml/jammy 0.5.10-1build2 amd64
