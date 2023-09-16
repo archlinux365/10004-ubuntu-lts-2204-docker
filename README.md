@@ -60,28 +60,70 @@
 1. 调用脚本拷贝文件到系统内 files/docker-install.root.sh files/docker-install.www.sh
 
 
-## 3 101-rootfs 干净纯净rootfs
+## 3 101-rootfs 构建基础rootfs 
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-101-rootfs.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-101-rootfs/)
 
 ```
 docker pull gnuhub/10004-ubuntu-lts-2204-docker-101-rootfs:latest
 docker run -it gnuhub/10004-ubuntu-lts-2204-docker-101-rootfs:latest bash
 ```
 
-## 3 root用户 安装一些常见包以及配置
+## 4 102-user-root 继承 101-rootfs镜像 安装配置 
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-102-user-root.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-102-user-root/)
 
 ```
-docker pull gnuhub/10003-deepin-docker-beige-root:latest
-docker run -it gnuhub/10003-deepin-docker-beige-root:latest bash
+docker pull gnuhub/10004-ubuntu-lts-2204-docker-102-user-root:latest
+docker run -it gnuhub/10004-ubuntu-lts-2204-docker-102-user-root:latest bash
 ```
 
-## 4 www安装一些常见包以及配置
+## 5 103-user-www 继承 102-user-root 镜像 安装配置 
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-103-user-www.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-103-user-www/)
 
 ```
-docker pull gnuhub/10003-deepin-docker-beige-www:latest
-docker run -it gnuhub/10003-deepin-docker-beige-www:latest bash
+docker pull gnuhub/10004-ubuntu-lts-2204-docker-103-user-www:latest
+docker run -it gnuhub/10004-ubuntu-lts-2204-docker-103-user-www:latest bash
 ```
 
-## 5 开发环境 快速启动
+## 6 104-desktop-vnc 继承 103-user-www 镜像 安装配置 
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-104-desktop-vnc.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-104-desktop-vnc/)
+
+```
+docker pull gnuhub/10004-ubuntu-lts-2204-docker-104-desktop-vnc:latest
+docker run -it gnuhub/10004-ubuntu-lts-2204-docker-104-desktop-vnc:latest bash
+```
+
+## 7 105-desktop-rdp 继承 103-user-www 镜像 安装配置 
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-105-desktop-rdp.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-105-desktop-rdp/)
+```
+docker pull gnuhub/10004-ubuntu-lts-2204-docker-105-desktop-rdp:latest
+docker run -it gnuhub/10004-ubuntu-lts-2204-docker-105-desktop-rdp:latest bash
+```
+
+## 8 106-desktop-dde 继承 103-user-www 镜像 安装配置
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-106-desktop-dde.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-106-desktop-dde/)
+
+```
+docker pull gnuhub/10004-ubuntu-lts-2204-docker-106-desktop-dde:latest
+docker run -it gnuhub/10004-ubuntu-lts-2204-docker-106-desktop-dde:latest bash
+```
+
+
+## 9 107-actions-runner 继承 103-user-root 镜像 使用runner用户 安装配置 
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-107-actions-runner.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-107-actions-runner/)
+
+```
+docker pull gnuhub/10004-ubuntu-lts-2204-docker-107-actions-runner:latest
+docker run -it gnuhub/10004-ubuntu-lts-2204-docker-107-actions-runner:latest bash
+```
+
+## 10 开发环境 快速启动
 
 ```
 docker compose up -d 
@@ -94,7 +136,7 @@ docker-compose up -d
 1. 访问vscode server
 1. 访问桌面
 
-## 6 账户密码 ssh以及桌面登陆 linux 面板
+## 11 账户密码 ssh以及桌面登陆 linux 面板
 
 1. root -> opendde
 1. www -> opendde
