@@ -5,10 +5,10 @@
 
 ## 参与项目最重要的事情： 读代码 读代码 读代码
 
-1. github ci:actions->.github/workflows/ci.yml 只是登陆和安装密钥调用ci.sh
+1. github ci:actions->.github/workflows/ci.yml 只是登陆docker仓库调用ci.sh
 1. 从ci.sh开始阅读-->只是依次构建 101-107对应文件夹的Dockerfile 他们之间镜像有继承关系
-1. 自定义文件放在 files
-1. 调用和添加shell看对应files下docker.install.${USER}.sh 注意自己用户 sudo在基础镜像root已经去掉密码
+1. 自定义文件放在 101-107 files
+1. 调用和添加shell看对应files下docker.install.${USER}.sh 注意自己用户 sudo在基础镜像已经去掉密码 可以放心执行sudo
 1. 执行情况看ci: https://github.com/archlinux365/10004-ubuntu-lts-2204-docker/actions
 1. 这是一个很简单的项目： 只有几百行shell规模，read the fucking code 
 1. talk is cheap,show me the code, just submit a pull request
