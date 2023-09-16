@@ -3,12 +3,14 @@
 ## 0 目标
 
 1. docker镜像: rootfs ci 开发 root以及www用户
+1. 默认国内清华镜像源
 1. ci镜像配置用户和基础工具链
-1. ssh docker服务
+1. ssh服务
 1. vnc桌面
 1. vscode server
 1. linux管理面板
-1. 进程管理
+1. web进程管理
+
 
 ## 1 文件夹说明
 
