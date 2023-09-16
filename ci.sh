@@ -56,7 +56,7 @@ cd ~/
 git clone git@github.com:archlinux365/10004-ubuntu-lts-2204-docker.git
 
 
-function get_versions()
+function get_versions_102_user_root()
 {
 	cd ~/
 	cd 10004-ubuntu-lts-2204-docker
