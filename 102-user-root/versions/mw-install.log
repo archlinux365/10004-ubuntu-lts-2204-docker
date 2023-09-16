@@ -359,7 +359,7 @@ Get:202 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 python3-xdg
 Get:203 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 libauthen-sasl-perl all 2.1600-1.1 [43.1 kB]
 Get:204 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 python3-magic all 2:0.4.24-2 [12.6 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 18.7 MB in 15s (1225 kB/s)
+Fetched 18.7 MB in 14s (1361 kB/s)
 Selecting previously unselected package iso-codes.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 22966 files and directories currently installed.)
 Preparing to unpack .../000-iso-codes_4.9.0-1_all.deb ...
@@ -1225,7 +1225,7 @@ Need to get 176 kB of archives.
 After this operation, 544 kB of additional disk space will be used.
 Get:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 zip amd64 3.0-12build2 [176 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 176 kB in 2s (82.7 kB/s)
+Fetched 176 kB in 2s (108 kB/s)
 Selecting previously unselected package zip.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 31522 files and directories currently installed.)
 Preparing to unpack .../zip_3.0-12build2_amd64.deb ...
@@ -2708,26 +2708,26 @@ Archive:  /tmp/dev.zip
  extracting: mdserver-web-dev/version/r3.7.txt  
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1032    0  1032    0     0   4423      0 --:--:-- --:--:-- --:--:--  4429
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1032    0  1032    0     0   6192      0 --:--:-- --:--:-- --:--:--  6216
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  216k  100  216k    0     0  1141k      0 --:--:-- --:--:-- --:--:-- 1145k
-[Sat Sep 16 12:50:46 UTC 2023] Installing from online archive.
-[Sat Sep 16 12:50:46 UTC 2023] Downloading https://github.com/acmesh-official/acme.sh/archive/master.tar.gz
-[Sat Sep 16 12:50:46 UTC 2023] Extracting master.tar.gz
-[Sat Sep 16 12:50:46 UTC 2023] It is recommended to install socat first.
-[Sat Sep 16 12:50:46 UTC 2023] We use socat for standalone server if you use standalone mode.
-[Sat Sep 16 12:50:46 UTC 2023] If you don't use standalone mode, just ignore this warning.
-[Sat Sep 16 12:50:46 UTC 2023] Installing to /root/.acme.sh
-[Sat Sep 16 12:50:46 UTC 2023] Installed to /root/.acme.sh/acme.sh
-[Sat Sep 16 12:50:46 UTC 2023] Installing alias to '/root/.profile'
-[Sat Sep 16 12:50:46 UTC 2023] OK, Close and reopen your terminal to start using acme.sh
-[Sat Sep 16 12:50:46 UTC 2023] Installing cron job
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 88  216k   88  191k    0     0  1220k      0 --:--:-- --:--:-- --:--:-- 1216k100  216k  100  216k    0     0  1347k      0 --:--:-- --:--:-- --:--:-- 1344k
+[Sat Sep 16 13:01:19 UTC 2023] Installing from online archive.
+[Sat Sep 16 13:01:19 UTC 2023] Downloading https://github.com/acmesh-official/acme.sh/archive/master.tar.gz
+[Sat Sep 16 13:01:20 UTC 2023] Extracting master.tar.gz
+[Sat Sep 16 13:01:20 UTC 2023] It is recommended to install socat first.
+[Sat Sep 16 13:01:20 UTC 2023] We use socat for standalone server if you use standalone mode.
+[Sat Sep 16 13:01:20 UTC 2023] If you don't use standalone mode, just ignore this warning.
+[Sat Sep 16 13:01:20 UTC 2023] Installing to /root/.acme.sh
+[Sat Sep 16 13:01:20 UTC 2023] Installed to /root/.acme.sh/acme.sh
+[Sat Sep 16 13:01:20 UTC 2023] Installing alias to '/root/.profile'
+[Sat Sep 16 13:01:20 UTC 2023] OK, Close and reopen your terminal to start using acme.sh
+[Sat Sep 16 13:01:20 UTC 2023] Installing cron job
 no crontab for root
 no crontab for root
-[Sat Sep 16 12:50:46 UTC 2023] Good, bash is found, so change the shebang to use bash as preferred.
-[Sat Sep 16 12:50:47 UTC 2023] OK
-[Sat Sep 16 12:50:47 UTC 2023] Install success!
+[Sat Sep 16 13:01:20 UTC 2023] Good, bash is found, so change the shebang to use bash as preferred.
+[Sat Sep 16 13:01:20 UTC 2023] OK
+[Sat Sep 16 13:01:20 UTC 2023] Install success!
 use system version: debian
 Reading package lists...
 Building dependency tree...
@@ -2746,14 +2746,14 @@ perl: warning: Please check that your locale settings:
     are supported and installed on your system.
 perl: warning: Falling back to the standard locale ("C").
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 51.5 kB in 2s (24.6 kB/s)
+Fetched 51.5 kB in 2s (25.4 kB/s)
 Selecting previously unselected package ntpdate.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 31536 files and directories currently installed.)
 Preparing to unpack .../ntpdate_1%3a4.2.8p15+dfsg-1ubuntu2_amd64.deb ...
 Unpacking ntpdate (1:4.2.8p15+dfsg-1ubuntu2) ...
 Setting up ntpdate (1:4.2.8p15+dfsg-1ubuntu2) ...
 Processing triggers for man-db (2.10.2-1) ...
-16 Sep 12:50:56 ntpdate[11270]: Can't adjust the time of day: Operation not permitted
+16 Sep 13:01:29 ntpdate[11272]: Can't adjust the time of day: Operation not permitted
 scripts/install/debian.sh: line 33: netstat: command not found
 SSH PORT:#22
 Generating locales (this might take a while)...
@@ -2793,7 +2793,7 @@ Get:7 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe amd64 expect am
 Get:8 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe amd64 locate amd64 4.8.0-1ubuntu3 [79.4 kB]
 Get:9 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe amd64 lrzsz amd64 0.12.21-10 [74.8 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 2,298 kB in 4s (617 kB/s)
+Fetched 2,298 kB in 3s (697 kB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 31550 files and directories currently installed.)
 Preparing to unpack .../tar_1.34+dfsg-1ubuntu0.1.22.04.1_amd64.deb ...
 Unpacking tar (1.34+dfsg-1ubuntu0.1.22.04.1) over (1.34+dfsg-1build3) ...
@@ -2826,8 +2826,8 @@ Unpacking lrzsz (0.12.21-10) ...
 Setting up tzdata (2023c-0ubuntu0.22.04.2) ...
 
 Current default time zone: 'Etc/UTC'
-Local time is now:      Sat Sep 16 12:51:08 UTC 2023.
-Universal Time is now:  Sat Sep 16 12:51:08 UTC 2023.
+Local time is now:      Sat Sep 16 13:01:41 UTC 2023.
+Universal Time is now:  Sat Sep 16 13:01:41 UTC 2023.
 Run 'dpkg-reconfigure tzdata' if you wish to change it.
 
 Setting up libtcl8.6:amd64 (8.6.12+dfsg-1build1) ...
@@ -2853,7 +2853,7 @@ After this operation, 1,541 kB of additional disk space will be used.
 Get:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/multiverse amd64 rar amd64 2:5.5.0-1.1 [341 kB]
 Get:2 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/multiverse amd64 unrar amd64 1:6.1.5-1 [145 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 485 kB in 3s (182 kB/s)
+Fetched 485 kB in 3s (194 kB/s)
 Selecting previously unselected package rar.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 33818 files and directories currently installed.)
 Preparing to unpack .../rar_2%3a5.5.0-1.1_amd64.deb ...
@@ -2912,7 +2912,7 @@ Get:19 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/universe amd64 
 Get:20 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/universe amd64 python3.10-venv amd64 3.10.12-1~22.04.2 [5,724 B]
 Get:21 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/universe amd64 python3-venv amd64 3.10.6-1~22.04 [1,038 B]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 12.6 MB in 4s (2,959 kB/s)
+Fetched 12.6 MB in 4s (3,389 kB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 33841 files and directories currently installed.)
 Preparing to unpack .../zlib1g_1%3a1.2.11.dfsg-2ubuntu9.2_amd64.deb ...
 Unpacking zlib1g:amd64 (1:1.2.11.dfsg-2ubuntu9.2) over (1:1.2.11.dfsg-2ubuntu9) ...
@@ -3064,7 +3064,7 @@ Get:32 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 libipset13 a
 Get:33 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe amd64 python3-cap-ng amd64 0.7.9-2.2build3 [17.1 kB]
 Get:34 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 ipset amd64 7.15-1build1 [32.8 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 5,041 kB in 4s (1,227 kB/s)
+Fetched 5,041 kB in 4s (1,403 kB/s)
 Selecting previously unselected package libglib2.0-0:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 35331 files and directories currently installed.)
 Preparing to unpack .../00-libglib2.0-0_2.72.4-0ubuntu2.2_amd64.deb ...
@@ -3248,7 +3248,7 @@ After this operation, 7,985 kB of additional disk space will be used.
 Get:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 libvpx7 amd64 1.11.0-2ubuntu2 [1,078 kB]
 Get:2 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 libvpx-dev amd64 1.11.0-2ubuntu2 [1,251 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 2,328 kB in 3s (670 kB/s)
+Fetched 2,328 kB in 3s (759 kB/s)
 Selecting previously unselected package libvpx7:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 36666 files and directories currently installed.)
 Preparing to unpack .../libvpx7_1.11.0-2ubuntu2_amd64.deb ...
@@ -3286,7 +3286,7 @@ Get:7 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 libxcb1-dev a
 Get:8 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libx11-dev amd64 2:1.7.5-1ubuntu0.2 [744 kB]
 Get:9 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libxpm-dev amd64 1:3.5.12-1ubuntu0.22.04.1 [90.3 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 1,647 kB in 3s (484 kB/s)
+Fetched 1,647 kB in 3s (605 kB/s)
 Selecting previously unselected package libpthread-stubs0-dev:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 36707 files and directories currently installed.)
 Preparing to unpack .../0-libpthread-stubs0-dev_0.4-1build2_amd64.deb ...
@@ -3342,7 +3342,7 @@ Get:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libwe
 Get:2 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libwebpmux3 amd64 1.2.2-2ubuntu0.22.04.2 [20.5 kB]
 Get:3 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libwebp-dev amd64 1.2.2-2ubuntu0.22.04.2 [298 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 328 kB in 6s (54.7 kB/s)
+Fetched 328 kB in 2s (141 kB/s)
 Selecting previously unselected package libwebpdemux2:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37012 files and directories currently installed.)
 Preparing to unpack .../libwebpdemux2_1.2.2-2ubuntu0.22.04.2_amd64.deb ...
@@ -3378,7 +3378,7 @@ Get:3 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libfr
 Get:4 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libfreetype6-dev amd64 2.11.1+dfsg-1ubuntu0.2 [8,290 B]
 Get:5 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 libpng-tools amd64 1.6.37-3build5 [28.7 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 1,121 kB in 3s (332 kB/s)
+Fetched 1,121 kB in 2s (462 kB/s)
 Selecting previously unselected package libbrotli-dev:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37045 files and directories currently installed.)
 Preparing to unpack .../libbrotli-dev_1.0.9-2build6_amd64.deb ...
@@ -3430,7 +3430,7 @@ Need to get 204 kB of archives.
 After this operation, 819 kB of additional disk space will be used.
 Get:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 net-tools amd64 1.60+git20181103.0eebece-1ubuntu5 [204 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 204 kB in 2s (96.6 kB/s)
+Fetched 204 kB in 2s (98.2 kB/s)
 Selecting previously unselected package net-tools.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37158 files and directories currently installed.)
 Preparing to unpack .../net-tools_1.60+git20181103.0eebece-1ubuntu5_amd64.deb ...
@@ -3458,7 +3458,7 @@ Get:3 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 autoconf all 
 Get:4 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 autotools-dev all 20220109.1 [44.9 kB]
 Get:5 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 automake all 1:1.16.5-1.3 [558 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 1,154 kB in 3s (446 kB/s)
+Fetched 1,154 kB in 3s (422 kB/s)
 Selecting previously unselected package libsigsegv2:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37207 files and directories currently installed.)
 Preparing to unpack .../libsigsegv2_2.13-1ubuntu3_amd64.deb ...
@@ -3505,7 +3505,7 @@ Need to get 72.1 kB of archives.
 After this operation, 186 kB of additional disk space will be used.
 Get:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe amd64 patchelf amd64 0.14.3-1 [72.1 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 72.1 kB in 2s (47.5 kB/s)
+Fetched 72.1 kB in 1s (51.9 kB/s)
 Selecting previously unselected package patchelf.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37504 files and directories currently installed.)
 Preparing to unpack .../patchelf_0.14.3-1_amd64.deb ...
@@ -3525,7 +3525,7 @@ Need to get 63.7 kB of archives.
 After this operation, 336 kB of additional disk space will be used.
 Get:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 libffi-dev amd64 3.4.2-4 [63.7 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 63.7 kB in 2s (32.5 kB/s)
+Fetched 63.7 kB in 2s (36.8 kB/s)
 Selecting previously unselected package libffi-dev:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37510 files and directories currently installed.)
 Preparing to unpack .../libffi-dev_3.4.2-4_amd64.deb ...
@@ -3559,7 +3559,7 @@ Get:5 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 emacsen-commo
 Get:6 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 cmake-data all 3.22.1-1ubuntu1.22.04.1 [1,913 kB]
 Get:7 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 cmake amd64 3.22.1-1ubuntu1.22.04.1 [5,013 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 7,246 kB in 4s (1,846 kB/s)
+Fetched 7,246 kB in 3s (2,208 kB/s)
 Selecting previously unselected package libuv1:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37545 files and directories currently installed.)
 Preparing to unpack .../0-libuv1_1.43.0-1_amd64.deb ...
@@ -3651,7 +3651,7 @@ Get:32 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libg
 Get:33 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe amd64 scons all 4.0.1+dfsg-2 [469 kB]
 Get:34 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/universe amd64 webp amd64 1.2.2-2ubuntu0.22.04.2 [86.3 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 39.2 MB in 7s (5,880 kB/s)
+Fetched 39.2 MB in 6s (6,739 kB/s)
 Selecting previously unselected package libdrm-common.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 40664 files and directories currently installed.)
 Preparing to unpack .../00-libdrm-common_2.4.113-2~ubuntu0.22.04.1_all.deb ...
@@ -3813,7 +3813,7 @@ After this operation, 325 kB of additional disk space will be used.
 Get:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe amd64 lzma amd64 9.22-2.2 [47.3 kB]
 Get:2 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe amd64 lzma-dev all 9.22-2.2 [41.6 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 88.9 kB in 2s (36.4 kB/s)
+Fetched 88.9 kB in 2s (44.1 kB/s)
 Selecting previously unselected package lzma.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 41118 files and directories currently installed.)
 Preparing to unpack .../lzma_9.22-2.2_amd64.deb ...
@@ -3854,7 +3854,7 @@ Get:3 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libpc
 Get:4 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libpcrecpp0v5 amd64 2:8.39-13ubuntu0.22.04.1 [16.5 kB]
 Get:5 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libpcre3-dev amd64 2:8.39-13ubuntu0.22.04.1 [579 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 1,160 kB in 3s (377 kB/s)
+Fetched 1,160 kB in 3s (404 kB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 41141 files and directories currently installed.)
 Preparing to unpack .../libpcre3_2%3a8.39-13ubuntu0.22.04.1_amd64.deb ...
 Unpacking libpcre3:amd64 (2:8.39-13ubuntu0.22.04.1) over (2:8.39-13build5) ...
@@ -3894,7 +3894,7 @@ After this operation, 6,144 B of additional disk space will be used.
 Get:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libssl3 amd64 3.0.2-0ubuntu1.10 [1,901 kB]
 Get:2 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 openssl amd64 3.0.2-0ubuntu1.10 [1,183 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 3,084 kB in 3s (1,027 kB/s)
+Fetched 3,084 kB in 3s (1,138 kB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 41286 files and directories currently installed.)
 Preparing to unpack .../libssl3_3.0.2-0ubuntu1.10_amd64.deb ...
 Unpacking libssl3:amd64 (3.0.2-0ubuntu1.10) over (3.0.2-0ubuntu1) ...
@@ -3921,7 +3921,7 @@ Need to get 2,372 kB of archives.
 After this operation, 12.4 MB of additional disk space will be used.
 Get:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libssl-dev amd64 3.0.2-0ubuntu1.10 [2,372 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 2,372 kB in 3s (735 kB/s)
+Fetched 2,372 kB in 2s (964 kB/s)
 Selecting previously unselected package libssl-dev:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 41286 files and directories currently installed.)
 Preparing to unpack .../libssl-dev_3.0.2-0ubuntu1.10_amd64.deb ...
@@ -3940,7 +3940,7 @@ Need to get 24.8 kB of archives.
 After this operation, 91.1 kB of additional disk space will be used.
 Get:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 libargon2-dev amd64 0~20171227-0.3 [24.8 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 24.8 kB in 1s (16.7 kB/s)
+Fetched 24.8 kB in 1s (18.6 kB/s)
 Selecting previously unselected package libargon2-dev:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 41434 files and directories currently installed.)
 Preparing to unpack .../libargon2-dev_0~20171227-0.3_amd64.deb ...
@@ -3967,7 +3967,7 @@ Get:4 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 libmemcachedu
 Get:5 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libsasl2-dev amd64 2.1.27+dfsg2-3ubuntu1.2 [248 kB]
 Get:6 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 libmemcached-dev amd64 1.0.18-4.2ubuntu4 [251 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 660 kB in 3s (239 kB/s)
+Fetched 660 kB in 2s (266 kB/s)
 Selecting previously unselected package libhashkit2:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 41441 files and directories currently installed.)
 Preparing to unpack .../0-libhashkit2_1.0.18-4.2ubuntu4_amd64.deb ...
@@ -4106,7 +4106,7 @@ Get:56 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe amd64 libnetpb
 Get:57 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 libpaper-utils amd64 1.1.28build2 [8,674 B]
 Get:58 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe amd64 netpbm amd64 2:10.0-15.4 [1,007 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 32.7 MB in 7s (4,999 kB/s)
+Fetched 32.7 MB in 5s (6,166 kB/s)
 Selecting previously unselected package fonts-droid-fallback.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 41730 files and directories currently installed.)
 Preparing to unpack .../00-fonts-droid-fallback_1%3a6.0.1r16-1.1build1_all.deb ...
@@ -4489,7 +4489,7 @@ Get:70 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 bzip2-doc al
 Get:71 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 libexif-doc all 0.6.24-1build1 [317 kB]
 Get:72 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 libtool all 2.4.6-15build2 [164 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 30.8 MB in 7s (4,209 kB/s)
+Fetched 30.8 MB in 6s (4,819 kB/s)
 Selecting previously unselected package libmagickcore-6-headers.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 44469 files and directories currently installed.)
 Preparing to unpack .../00-libmagickcore-6-headers_8%3a6.9.11.60+dfsg-1.3ubuntu0.22.04.3_all.deb ...
@@ -4820,7 +4820,7 @@ Get:9 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 libpspell-dev
 Get:10 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 librecode0 amd64 3.6-24build2 [670 kB]
 Get:11 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 librecode-dev amd64 3.6-24build2 [664 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 2,418 kB in 3s (824 kB/s)
+Fetched 2,418 kB in 3s (948 kB/s)
 Selecting previously unselected package libtext-iconv-perl.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 47222 files and directories currently installed.)
 Preparing to unpack .../00-libtext-iconv-perl_1.7-7build3_amd64.deb ...
@@ -4921,7 +4921,7 @@ Get:6 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 libgmp3-dev a
 Get:7 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libncurses-dev amd64 6.3-2ubuntu0.1 [381 kB]
 Get:8 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 libreadline-dev amd64 8.1.2-1 [166 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 1,258 kB in 3s (402 kB/s)
+Fetched 1,258 kB in 3s (462 kB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 47626 files and directories currently installed.)
 Preparing to unpack .../libncursesw6_6.3-2ubuntu0.1_amd64.deb ...
 Unpacking libncursesw6:amd64 (6.3-2ubuntu0.1) over (6.3-2) ...
@@ -5009,7 +5009,7 @@ Get:25 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 libgail18 am
 Get:26 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 libgail-common amd64 2.24.33-2ubuntu2 [132 kB]
 Get:27 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 libgtk2.0-bin amd64 2.24.33-2ubuntu2 [7,932 B]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 17.1 MB in 4s (3,980 kB/s)
+Fetched 17.1 MB in 4s (4,223 kB/s)
 Selecting previously unselected package sgml-base.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 47753 files and directories currently installed.)
 Preparing to unpack .../00-sgml-base_1.30_all.deb ...
@@ -5187,7 +5187,7 @@ Get:7 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libld
 Get:8 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libncurses5-dev amd64 6.3-2ubuntu0.1 [790 B]
 Get:9 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libldap2-dev all 2.5.16+dfsg-0ubuntu0.22.04.1 [7,118 B]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 920 kB in 3s (332 kB/s)
+Fetched 920 kB in 3s (352 kB/s)
 Selecting previously unselected package libevent-2.1-7:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 64835 files and directories currently installed.)
 Preparing to unpack .../0-libevent-2.1-7_2.1.12-stable-1build3_amd64.deb ...
@@ -5243,7 +5243,7 @@ After this operation, 479 kB of additional disk space will be used.
 Get:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe amd64 libzip4 amd64 1.7.3-1ubuntu2 [55.0 kB]
 Get:2 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe amd64 libzip-dev amd64 1.7.3-1ubuntu2 [157 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 212 kB in 3s (79.5 kB/s)
+Fetched 212 kB in 2s (87.0 kB/s)
 Selecting previously unselected package libzip4:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 65146 files and directories currently installed.)
 Preparing to unpack .../libzip4_1.7.3-1ubuntu2_amd64.deb ...
@@ -5279,7 +5279,7 @@ Need to get 386 kB of archives.
 After this operation, 1,697 kB of additional disk space will be used.
 Get:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libcurl4-openssl-dev amd64 7.81.0-1ubuntu1.13 [386 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 386 kB in 2s (178 kB/s)
+Fetched 386 kB in 3s (146 kB/s)
 Selecting previously unselected package libcurl4-openssl-dev:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 65287 files and directories currently installed.)
 Preparing to unpack .../libcurl4-openssl-dev_7.81.0-1ubuntu1.13_amd64.deb ...
@@ -5305,7 +5305,7 @@ Need to get 379 kB of archives.
 After this operation, 25.6 kB disk space will be freed.
 Get:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libcurl4-gnutls-dev amd64 7.81.0-1ubuntu1.13 [379 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 379 kB in 3s (149 kB/s)
+Fetched 379 kB in 2s (183 kB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 65308 files and directories currently installed.)
 Removing libcurl4-openssl-dev:amd64 (7.81.0-1ubuntu1.13) ...
 Selecting previously unselected package libcurl4-gnutls-dev:amd64.
@@ -5369,7 +5369,7 @@ Get:20 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libs
 Get:21 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libxslt1-dev amd64 1.1.34-4ubuntu0.22.04.1 [219 kB]
 Get:22 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 re2c amd64 3.0-1 [456 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 7,742 kB in 4s (1,925 kB/s)
+Fetched 7,742 kB in 3s (2,329 kB/s)
 Selecting previously unselected package flex.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 65310 files and directories currently installed.)
 Preparing to unpack .../00-flex_2.6.4-8build2_amd64.deb ...
@@ -5482,7 +5482,7 @@ Get:3 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/universe amd64 l
 Get:4 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/universe amd64 libmariadb-dev amd64 1:10.6.12-0ubuntu0.22.04.1 [182 kB]
 Get:5 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/universe amd64 libmariadb-dev-compat amd64 1:10.6.12-0ubuntu0.22.04.1 [12.0 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 391 kB in 4s (110 kB/s)
+Fetched 391 kB in 2s (177 kB/s)
 Selecting previously unselected package mysql-common.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 66129 files and directories currently installed.)
 Preparing to unpack .../mysql-common_5.8+1.0.8_all.deb ...
@@ -5517,14 +5517,14 @@ Looking in indexes: https://pypi.python.org/simple
 Requirement already satisfied: setuptools>=33.1.1 in /usr/lib/python3/dist-packages (from -r /www/server/mdserver-web/requirements.txt (line 1)) (59.6.0)
 Collecting Werkzeug>=1.0.1
   Downloading werkzeug-2.3.7-py3-none-any.whl (242 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 242.2/242.2 KB 5.1 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 242.2/242.2 KB 4.4 MB/s eta 0:00:00
 Requirement already satisfied: wheel>=0.37.1 in /usr/lib/python3/dist-packages (from -r /www/server/mdserver-web/requirements.txt (line 3)) (0.37.1)
 Collecting gunicorn==20.1.0
   Downloading gunicorn-20.1.0-py3-none-any.whl (79 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.5/79.5 KB 8.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.5/79.5 KB 7.7 MB/s eta 0:00:00
 Collecting requests>=2.27.1
   Downloading requests-2.31.0-py3-none-any.whl (62 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.6/62.6 KB 8.9 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.6/62.6 KB 9.7 MB/s eta 0:00:00
 Requirement already satisfied: urllib3>=1.21.1 in /usr/lib/python3/dist-packages (from -r /www/server/mdserver-web/requirements.txt (line 6)) (1.26.5)
 Collecting flask>=2.0.3
   Downloading flask-2.3.3-py3-none-any.whl (96 kB)
@@ -5545,31 +5545,31 @@ Collecting cache==1.0.3
   Preparing metadata (setup.py): finished with status 'done'
 Collecting gevent==22.10.2
   Downloading gevent-22.10.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (6.4 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.4/6.4 MB 26.9 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.4/6.4 MB 17.2 MB/s eta 0:00:00
 Collecting gevent-websocket==0.10.1
   Downloading gevent_websocket-0.10.1-py3-none-any.whl (22 kB)
 Collecting psutil==5.9.1
   Downloading psutil-5.9.1-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (282 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 282.0/282.0 KB 66.9 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 282.0/282.0 KB 39.4 MB/s eta 0:00:00
 Collecting chardet==3.0.4
   Downloading chardet-3.0.4-py2.py3-none-any.whl (133 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.4/133.4 KB 42.0 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.4/133.4 KB 43.2 MB/s eta 0:00:00
 Collecting flask-sqlalchemy==2.3.2
   Downloading Flask_SQLAlchemy-2.3.2-py2.py3-none-any.whl (16 kB)
 Collecting pyOpenSSL==23.2.0
   Downloading pyOpenSSL-23.2.0-py3-none-any.whl (59 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.0/59.0 KB 26.6 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.0/59.0 KB 19.8 MB/s eta 0:00:00
 Collecting cryptography>=40.0.2
   Downloading cryptography-41.0.3-cp37-abi3-manylinux_2_28_x86_64.whl (4.3 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.3/4.3 MB 62.2 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.3/4.3 MB 34.8 MB/s eta 0:00:00
 Collecting configparser==5.2.0
   Downloading configparser-5.2.0-py3-none-any.whl (19 kB)
 Collecting python-engineio==4.3.2
   Downloading python_engineio-4.3.2-py3-none-any.whl (52 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 52.7/52.7 KB 22.1 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 52.7/52.7 KB 16.5 MB/s eta 0:00:00
 Collecting python-socketio>=4.2.0
   Downloading python_socketio-5.9.0-py3-none-any.whl (57 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.6/57.6 KB 24.9 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.6/57.6 KB 10.4 MB/s eta 0:00:00
 Collecting flask-socketio==5.2.0
   Downloading Flask_SocketIO-5.2.0-py3-none-any.whl (17 kB)
 Collecting flask_sockets==0.2.1
@@ -5580,24 +5580,24 @@ Collecting zmq==0.0.0
   Preparing metadata (setup.py): finished with status 'done'
 Collecting paramiko>=2.8.0
   Downloading paramiko-3.3.1-py3-none-any.whl (224 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 224.8/224.8 KB 59.5 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 224.8/224.8 KB 53.1 MB/s eta 0:00:00
 Collecting pymongo
   Downloading pymongo-4.5.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (671 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 671.3/671.3 KB 79.5 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 671.3/671.3 KB 42.6 MB/s eta 0:00:00
 Collecting pillow
   Downloading Pillow-10.0.1-cp310-cp310-manylinux_2_28_x86_64.whl (3.6 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 86.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 50.0 MB/s eta 0:00:00
 Collecting Jinja2>=2.11.2
   Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.1/133.1 KB 38.9 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.1/133.1 KB 8.0 MB/s eta 0:00:00
 Collecting PyMySQL==1.0.2
   Downloading PyMySQL-1.0.2-py3-none-any.whl (43 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.8/43.8 KB 17.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.8/43.8 KB 15.3 MB/s eta 0:00:00
 Collecting whitenoise==5.3.0
   Downloading whitenoise-5.3.0-py2.py3-none-any.whl (19 kB)
 Collecting pyTelegramBotAPI
   Downloading pyTelegramBotAPI-4.13.0.tar.gz (232 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 232.8/232.8 KB 63.6 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 232.8/232.8 KB 66.2 MB/s eta 0:00:00
   Preparing metadata (setup.py): started
   Preparing metadata (setup.py): finished with status 'done'
 Collecting telebot
@@ -5606,72 +5606,72 @@ Collecting cachelib
   Downloading cachelib-0.10.2-py3-none-any.whl (18 kB)
 Collecting bcrypt>=3.1.1
   Downloading bcrypt-4.0.1-cp36-abi3-manylinux_2_28_x86_64.whl (593 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 593.7/593.7 KB 96.2 MB/s eta 0:00:00
-Collecting greenlet>=2.0.0
-  Downloading greenlet-2.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (613 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 613.7/613.7 KB 95.1 MB/s eta 0:00:00
-Collecting zope.event
-  Downloading zope.event-5.0-py3-none-any.whl (6.8 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 593.7/593.7 KB 71.0 MB/s eta 0:00:00
 Collecting zope.interface
   Downloading zope.interface-6.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (246 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.0/247.0 KB 60.5 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.0/247.0 KB 59.8 MB/s eta 0:00:00
+Collecting zope.event
+  Downloading zope.event-5.0-py3-none-any.whl (6.8 kB)
+Collecting greenlet>=2.0.0
+  Downloading greenlet-2.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (613 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 613.7/613.7 KB 66.5 MB/s eta 0:00:00
 Collecting SQLAlchemy>=0.8.0
   Downloading SQLAlchemy-2.0.20-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 111.7 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 57.9 MB/s eta 0:00:00
 Collecting pyzmq
   Downloading pyzmq-25.1.1-cp310-cp310-manylinux_2_28_x86_64.whl (1.1 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 107.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 66.1 MB/s eta 0:00:00
 Collecting MarkupSafe>=2.1.1
   Downloading MarkupSafe-2.1.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
 Requirement already satisfied: certifi>=2017.4.17 in /usr/lib/python3/dist-packages (from requests>=2.27.1->-r /www/server/mdserver-web/requirements.txt (line 5)) (2020.6.20)
-Requirement already satisfied: idna<4,>=2.5 in /usr/lib/python3/dist-packages (from requests>=2.27.1->-r /www/server/mdserver-web/requirements.txt (line 5)) (3.3)
 Collecting charset-normalizer<4,>=2
   Downloading charset_normalizer-3.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (201 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 201.8/201.8 KB 51.0 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 201.8/201.8 KB 60.5 MB/s eta 0:00:00
+Requirement already satisfied: idna<4,>=2.5 in /usr/lib/python3/dist-packages (from requests>=2.27.1->-r /www/server/mdserver-web/requirements.txt (line 5)) (3.3)
+Collecting blinker>=1.6.2
+  Downloading blinker-1.6.2-py3-none-any.whl (13 kB)
 Collecting click>=8.1.3
   Downloading click-8.1.7-py3-none-any.whl (97 kB)
      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.9/97.9 KB 35.5 MB/s eta 0:00:00
 Collecting itsdangerous>=2.1.2
   Downloading itsdangerous-2.1.2-py3-none-any.whl (15 kB)
-Collecting blinker>=1.6.2
-  Downloading blinker-1.6.2-py3-none-any.whl (13 kB)
 Collecting cachelib
   Downloading cachelib-0.9.0-py3-none-any.whl (15 kB)
 Collecting cffi>=1.12
   Downloading cffi-1.15.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (441 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 441.8/441.8 KB 81.3 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 441.8/441.8 KB 81.5 MB/s eta 0:00:00
 Collecting bidict>=0.21.0
   Downloading bidict-0.22.1-py3-none-any.whl (35 kB)
 Collecting python-socketio>=4.2.0
   Downloading python_socketio-5.8.0-py3-none-any.whl (56 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.0/57.0 KB 21.4 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.0/57.0 KB 17.2 MB/s eta 0:00:00
 Collecting pynacl>=1.5
   Downloading PyNaCl-1.5.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl (856 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 856.7/856.7 KB 97.0 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 856.7/856.7 KB 79.3 MB/s eta 0:00:00
 Collecting dnspython<3.0.0,>=1.16.0
   Downloading dnspython-2.4.2-py3-none-any.whl (300 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 300.4/300.4 KB 75.2 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 300.4/300.4 KB 52.9 MB/s eta 0:00:00
 Collecting pycparser
   Downloading pycparser-2.21-py2.py3-none-any.whl (118 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 118.7/118.7 KB 30.3 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 118.7/118.7 KB 44.6 MB/s eta 0:00:00
 Collecting typing-extensions>=4.2.0
   Downloading typing_extensions-4.7.1-py3-none-any.whl (33 kB)
 Building wheels for collected packages: flask-helper, cache, zmq, pyTelegramBotAPI
   Building wheel for flask-helper (setup.py): started
   Building wheel for flask-helper (setup.py): finished with status 'done'
-  Created wheel for flask-helper: filename=Flask_Helper-0.19-py3-none-any.whl size=11139 sha256=831d8b065ef477affb635ee28b346c57ffa4779ae8ca394785c5b74954aed379
+  Created wheel for flask-helper: filename=Flask_Helper-0.19-py3-none-any.whl size=11139 sha256=32d50dff3527590458991b8539df1cb1699098f41443d04a397ffdb4422a7703
   Stored in directory: /root/.cache/pip/wheels/a3/74/ea/5caf6dc7a222dca090f842b58398295f9302c0a77bd7c4a07d
   Building wheel for cache (setup.py): started
   Building wheel for cache (setup.py): finished with status 'done'
-  Created wheel for cache: filename=cache-1.0.3-py3-none-any.whl size=3127 sha256=3e7f99c599c9d8a592c717b2b38f7a70e0dbf7f58cb92e71f6eb041687b2b2a2
+  Created wheel for cache: filename=cache-1.0.3-py3-none-any.whl size=3127 sha256=7566dc5f4158a8d331c0fc82ff151de33cb132e8725e9e7f08be87833c6bed77
   Stored in directory: /root/.cache/pip/wheels/0f/63/b7/7e93d9dea4d2f8d94ea256489bcd4bbae5ef6c01c31198647d
   Building wheel for zmq (setup.py): started
   Building wheel for zmq (setup.py): finished with status 'done'
-  Created wheel for zmq: filename=zmq-0.0.0-py3-none-any.whl size=1275 sha256=871fc31ba32f9eda762ec2de9f409f705e20e92688c3f650265f6736cc30c03d
+  Created wheel for zmq: filename=zmq-0.0.0-py3-none-any.whl size=1275 sha256=6889b2414fd9595082a0cee10d3022e6bc4099eae6b47e1c93cdacbbb6b5a1fc
   Stored in directory: /root/.cache/pip/wheels/ab/c5/fe/d853f71843cae26c123d37a7a5934baac20fc66f35a913951d
   Building wheel for pyTelegramBotAPI (setup.py): started
   Building wheel for pyTelegramBotAPI (setup.py): finished with status 'done'
-  Created wheel for pyTelegramBotAPI: filename=pyTelegramBotAPI-4.13.0-py3-none-any.whl size=214547 sha256=dcd8547a9e9824bab0b0579bad100275d571d476032fbbc8b72d7f9e225ed41a
+  Created wheel for pyTelegramBotAPI: filename=pyTelegramBotAPI-4.13.0-py3-none-any.whl size=214547 sha256=61f90f74c8e3d294c8d7da1c07afdd8738a62242768d4736e973a97a51a9809d
   Stored in directory: /root/.cache/pip/wheels/f7/1a/3b/41e1ce64625e3f11567085dc79043d9fa573a2cc39f9938556
 Successfully built flask-helper cache zmq pyTelegramBotAPI
 Installing collected packages: chardet, cache, zope.interface, zope.event, whitenoise, typing-extensions, pyzmq, python-engineio, PyMySQL, pycparser, psutil, pillow, MarkupSafe, itsdangerous, gunicorn, greenlet, dnspython, configparser, click, charset-normalizer, cachelib, blinker, bidict, bcrypt, zmq, Werkzeug, SQLAlchemy, requests, python-socketio, pymongo, Jinja2, gevent, cffi, pyTelegramBotAPI, pynacl, gevent-websocket, flask, cryptography, telebot, pyOpenSSL, paramiko, flask-sqlalchemy, flask_sockets, flask-socketio, flask-session, flask-helper, flask-caching, flask-bcrypt
@@ -5693,7 +5693,7 @@ Looking in indexes: https://pypi.python.org/simple
 Requirement already satisfied: pip in ./lib/python3.10/site-packages (22.0.2)
 Collecting pip
   Downloading pip-23.2.1-py3-none-any.whl (2.1 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 11.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 9.2 MB/s eta 0:00:00
 Installing collected packages: pip
   Attempting uninstall: pip
     Found existing installation: pip 22.0.2
@@ -5706,7 +5706,7 @@ Collecting setuptools
   Obtaining dependency information for setuptools from https://files.pythonhosted.org/packages/bb/26/7945080113158354380a12ce26873dd6c1ebd88d47f5bc24e2c5bb38c16a/setuptools-68.2.2-py3-none-any.whl.metadata
   Downloading setuptools-68.2.2-py3-none-any.whl.metadata (6.3 kB)
 Downloading setuptools-68.2.2-py3-none-any.whl (807 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 8.3 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 11.8 MB/s eta 0:00:00
 Installing collected packages: setuptools
   Attempting uninstall: setuptools
     Found existing installation: setuptools 59.6.0
@@ -5815,7 +5815,7 @@ Collecting charset-normalizer<4,>=2 (from requests>=2.27.1->-r /www/server/mdser
   Downloading charset_normalizer-3.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (31 kB)
 Collecting idna<4,>=2.5 (from requests>=2.27.1->-r /www/server/mdserver-web/requirements.txt (line 5))
   Downloading idna-3.4-py3-none-any.whl (61 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.5/61.5 kB 21.1 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.5/61.5 kB 9.9 MB/s eta 0:00:00
 Collecting certifi>=2017.4.17 (from requests>=2.27.1->-r /www/server/mdserver-web/requirements.txt (line 5))
   Obtaining dependency information for certifi>=2017.4.17 from https://files.pythonhosted.org/packages/4c/dd/2234eab22353ffc7d94e8d13177aaa050113286e93e7b40eae01fbf7c3d9/certifi-2023.7.22-py3-none-any.whl.metadata
   Downloading certifi-2023.7.22-py3-none-any.whl.metadata (2.2 kB)
@@ -5848,17 +5848,17 @@ Collecting typing-extensions>=4.2.0 (from SQLAlchemy>=0.8.0->flask-sqlalchemy==2
 Using cached pyOpenSSL-23.2.0-py3-none-any.whl (59 kB)
 Using cached werkzeug-2.3.7-py3-none-any.whl (242 kB)
 Downloading wheel-0.41.2-py3-none-any.whl (64 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.8/64.8 kB 23.6 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.8/64.8 kB 16.5 MB/s eta 0:00:00
 Using cached requests-2.31.0-py3-none-any.whl (62 kB)
 Downloading urllib3-2.0.4-py3-none-any.whl (123 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.9/123.9 kB 40.2 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.9/123.9 kB 20.5 MB/s eta 0:00:00
 Using cached flask-2.3.3-py3-none-any.whl (96 kB)
 Using cached cryptography-41.0.3-cp37-abi3-manylinux_2_28_x86_64.whl (4.3 MB)
 Using cached paramiko-3.3.1-py3-none-any.whl (224 kB)
 Using cached pymongo-4.5.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (671 kB)
 Using cached Pillow-10.0.1-cp310-cp310-manylinux_2_28_x86_64.whl (3.6 MB)
 Downloading certifi-2023.7.22-py3-none-any.whl (158 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 158.3/158.3 kB 51.3 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 158.3/158.3 kB 33.6 MB/s eta 0:00:00
 Using cached charset_normalizer-3.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (201 kB)
 Using cached click-8.1.7-py3-none-any.whl (97 kB)
 Using cached dnspython-2.4.2-py3-none-any.whl (300 kB)
@@ -5872,18 +5872,18 @@ Successfully installed Jinja2-3.1.2 MarkupSafe-2.1.3 PyMySQL-1.0.2 SQLAlchemy-2.
 lib ok!
 starting mw-tasks... [32mdone[0m
 .stopping mw-tasks... [32mdone[0m
-stopping mw-panel... cli.sh: line 20: 16728 Killed                  python3 task.py >> ${DIR}/logs/task.log 2>&1
+stopping mw-panel... cli.sh: line 20: 16730 Killed                  python3 task.py >> ${DIR}/logs/task.log 2>&1
 [32mdone[0m
 starting mw-tasks... [32mdone[0m
 starting mw-panel... .......[32mdone[0m
 ==================================================================
 [32mMW-Panel default info![0m
 ==================================================================
-MW-Panel-Url: http://you-network-ip:47885/uoyexvtm
-username: ciywqnjz
-password: ifxjmjic
+MW-Panel-Url: http://you-network-ip:50269/3shsc5r3
+username: ckuvlf8f
+password: d6dbkfyr
 [33mWarning:[0m
 [33mIf you cannot access the panel. [0m
-[33mrelease the following port (47885|888|80|443|22) in the security group.[0m
+[33mrelease the following port (50269|888|80|443|22) in the security group.[0m
 ==================================================================
-Time consumed:[32m 5 [0mMinute!
+Time consumed:[32m 4 [0mMinute!
