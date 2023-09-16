@@ -1,5 +1,8 @@
 # 10004-ubuntu-lts-2204-docker
 
+[![docker build](https://github.com/archlinux365/10004-ubuntu-lts-2204-docker/actions/workflows/ci.yml/badge.svg)](https://github.com/archlinux365/10004-ubuntu-lts-2204-docker/actions/workflows/ci.yml)
+
+
 ## 参与项目最重要的事情： 读代码 读代码 读代码
 
 1. github ci:actions->.github/workflows/ci.yml 只是登陆和安装密钥调用ci.sh
