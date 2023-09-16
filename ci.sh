@@ -45,8 +45,9 @@ docker push gnuhub/$PROJECT_NAME-$1:latest
 
 docker_build 101-rootfs
 docker_build 102-user-root
+docker_build 103-user-www
 docker_build 107-actions-runner
-# docker_build 103-user-www
+
 
 cd ~/
 git clone git@github.com:archlinux365/10004-ubuntu-lts-2204-docker.git
