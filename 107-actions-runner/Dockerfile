@@ -13,4 +13,4 @@ ENV HOME=/home/runner
 RUN /opt/9318/docker.install.runner.sh
 
 # 3
-RUN rm -rf /opt/9318/
+RUN sudo rm -rf /opt/9318/
