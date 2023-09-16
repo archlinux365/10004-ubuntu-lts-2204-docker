@@ -48,6 +48,7 @@ docker_build 102-user-root
 docker_build 103-user-www
 docker_build 104-desktop-vnc
 docker_build 105-desktop-rdp
+docker_build 106-desktop-dde
 docker_build 107-actions-runner
 
 
