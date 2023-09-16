@@ -28,7 +28,7 @@
 ## 1 文件夹说明
 
 1. 101-rootfs 构建基础rootfs [![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-101-rootfs.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-101-rootfs/)
-1. 102-user-root 继承 101-rootfs镜像 安装配置 [![Docker Pulls](https://img.shields.io/docker/pulls/ggnuhub/10004-ubuntu-lts-2204-docker-102-user-root.svg)](https://hub.docker.com/r/ggnuhub/10004-ubuntu-lts-2204-docker-102-user-root/)
+1. 102-user-root 继承 101-rootfs镜像 安装配置 [![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-102-user-root.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-102-user-root/)
 1. 103-user-www 继承 102-user-root 镜像 安装配置
 1. 104-desktop-vnc 继承 103-user-www 镜像 安装配置
 1. 105-desktop-rdp 继承 103-user-www 镜像 安装配置
