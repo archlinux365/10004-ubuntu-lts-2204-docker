@@ -26,7 +26,6 @@ apt install -y rsync
 apt install -y sudo
 
 apt install -y kpartx
-apt install -y kpartx-root
 apt install -y extlinux
 
 
