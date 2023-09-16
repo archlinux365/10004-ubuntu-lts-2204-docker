@@ -64,6 +64,7 @@ function get_versions_102_user_root()
 	cd 10004-ubuntu-lts-2204-docker
 	cd 102-user-root
 	rm -rf versions 
+	rm -rf etc_apt
 	cid=$(docker run -it --detach ghcr.io/archlinux365/10004-ubuntu-lts-2204-docker-102-user-root:latest)
 	docker cp ${cid}:/root/versions/ ./versions/
 	docker cp ${cid}:/etc/apt/ ./etc_apt/
