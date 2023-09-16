@@ -17,6 +17,8 @@ cat /home/runner/.ssh/known_hosts
 git config --global user.email "gnuhub@gmail.com"
 git config --global user.name "gnuhub"
 
+which podman
+podman --version
 env
 
 cd $CMD_PATH
