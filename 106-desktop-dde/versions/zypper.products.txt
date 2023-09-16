@@ -1,0 +1,7 @@
+Loading repository data...
+Reading installed packages...
+S  | Repository   | Internal Name         | Name                  | Version    | Arch   | Is Base
+---+--------------+-----------------------+-----------------------+------------+--------+--------
+   | USTC:NON-OSS | openSUSE-Addon-NonOss | openSUSE NonOSS Addon | 20230911-0 | x86_64 | No
+i+ | USTC:OSS     | openSUSE              | openSUSE Tumbleweed   | 20230911-0 | x86_64 | Yes
+   | USTC:OSS     | MicroOS               | openSUSE MicroOS      | 20230911-0 | x86_64 | No

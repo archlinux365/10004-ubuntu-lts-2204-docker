@@ -19,7 +19,8 @@
 1. 103-user-www 继承 102-user-root 镜像 安装配置
 1. 104-desktop-vnc 继承 103-user-www 镜像 安装配置
 1. 105-desktop-rdp 继承 103-user-www 镜像 安装配置
-
+1. 106-actions-image 继承 103-user-www 镜像 安装配置
+1. 107-desktop-dde 继承 103-user-www 镜像 安装配置
 ## 2 开发指南
 
 1. 放文件独立脚本 files

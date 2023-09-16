@@ -45,6 +45,7 @@ docker push gnuhub/$PROJECT_NAME-$1:latest
 
 docker_build 101-rootfs
 docker_build 102-user-root
+docker_build 107-actions-runner
 # docker_build 103-user-www
 
 cd ~/
@@ -54,15 +55,26 @@ git clone git@github.com:archlinux365/10004-ubuntu-lts-2204-docker.git
 function get_versions()
 {
 	cd ~/
-	cd 10004-ubuntu-docker
-	cd $1
+	cd 10004-ubuntu-lts-2204-docker
+	cd 102-user-root
 	rm -rf versions 
-	cid=$(docker run -it --detach ghcr.io/archlinux365/10004-ubuntu-docker-$1:latest)
+	cid=$(docker run -it --detach ghcr.io/archlinux365/10004-ubuntu-lts-2204-docker-102-user-root:latest)
 	docker cp ${cid}:/root/versions/ ./versions/
 }
 
-get_versions 102-user-root
+get_versions_102_user_root
 
+function get_versions_107_actions_runner()
+{
+	cd ~/
+	cd 10004-ubuntu-lts-2204-docker
+	cd 107-actions-runner
+	rm -rf versions 
+	cid=$(docker run -it --detach ghcr.io/archlinux365/10004-ubuntu-lts-2204-docker-107-actions-runner:latest)
+	docker cp ${cid}:/home/runner/versions/ ./versions/
+}
+
+get_versions_107_actions_runner
 
 cd ~/
 cd 10004-ubuntu-lts-2204-docker
