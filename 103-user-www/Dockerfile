@@ -4,7 +4,9 @@ FROM ghcr.io/archlinux365/10004-ubuntu-lts-2204-docker-102-user-root:latest
 ENV TERM=xterm-256color
 COPY files/ /opt/9318/
 
+
 # 2
+RUN chown -R www:www /opt/9318/
 USER www
 WORKDIR /home/www
 ENV USER=www
