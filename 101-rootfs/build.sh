@@ -14,4 +14,12 @@ export DEBIAN_FRONTEND=noninteractive
 
 apt install debootstrap -y
 
-debootstrap --no-check-gpg --variant=minbase --include=usrmerge,apt,ca-certificates,locales,sudo,systemd,ubuntu-keyring --components=main,multiverse,restricted,universe jammy /rootfs https://mirrors.tuna.tsinghua.edu.cn/ubuntu/
+debootstrap \
+--arch=amd64 \
+--no-check-gpg \
+--variant=minbase \
+--include=usrmerge,apt,ca-certificates,locales,sudo,systemd,ubuntu-keyring  \
+--components=main,multiverse,restricted,universe \
+jammy \
+/rootfs \
+https://mirrors.tuna.tsinghua.edu.cn/ubuntu/
