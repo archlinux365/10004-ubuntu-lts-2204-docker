@@ -47,11 +47,11 @@ docker push gnuhub/$PROJECT_NAME-$1:latest
 
 docker_build 101-rootfs
 docker_build 102-user-root
-docker_build 103-user-www
-docker_build 104-desktop-vnc
-docker_build 105-desktop-rdp
-docker_build 106-desktop-dde
-docker_build 107-actions-runner
+# docker_build 103-user-www
+# docker_build 104-desktop-vnc
+# docker_build 105-desktop-rdp
+# docker_build 106-desktop-dde
+# docker_build 107-actions-runner
 
 
 cd ~/
@@ -70,7 +70,7 @@ function get_versions_102_user_root()
 	docker cp ${cid}:/etc/apt/ ./etc_apt/
 }
 
-get_versions_102_user_root
+
 
 function get_versions_107_actions_runner()
 {
@@ -82,7 +82,8 @@ function get_versions_107_actions_runner()
 	docker cp ${cid}:/home/runner/versions/ ./versions/
 }
 
-get_versions_107_actions_runner
+get_versions_102_user_root
+# get_versions_107_actions_runner
 
 cd ~/
 cd 10004-ubuntu-lts-2204-docker
