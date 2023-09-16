@@ -13,4 +13,6 @@ apt update -y
 export DEBIAN_FRONTEND=noninteractive
 
 apt install debootstrap -y
-debootstrap --no-check-gpg --variant=minbase --include=usrmerge --components=main,multiverse,restricted,universe jammy /rootfs http://us.archive.ubuntu.com/ubuntu/
+
+,openkylin-keyring
+debootstrap --no-check-gpg --variant=minbase --include=usrmerge,apt,ca-certificates,locales,sudo,systemd,ubuntu-archive-keyring --components=main,multiverse,restricted,universe jammy /rootfs https://mirrors.tuna.tsinghua.edu.cn/ubuntu/
