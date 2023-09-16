@@ -59,6 +59,6 @@ rm -rf versions
 mkdir versions
 cd versions
 
-curl --insecure -fsSL https://code.midoks.me/midoks/mdserver-web/raw/branch/dev/scripts/install_dev.sh | bash > mdserver-web.txt
+# curl --insecure -fsSL https://code.midoks.me/midoks/mdserver-web/raw/branch/dev/scripts/install_dev.sh | bash > mdserver-web.txt
 apt list > apt.list.origin.txt
 apt list --installed > apt.list.installed.origin.txt
