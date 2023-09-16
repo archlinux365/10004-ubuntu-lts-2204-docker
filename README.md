@@ -1,5 +1,12 @@
 # 10004-ubuntu-lts-2204-docker
 
+## 参与项目最重要的事情： 读代码 读代码 读代码
+
+1. github ci:actions->.github/workflows/ci.yml 只是登陆和安装密钥调用ci.sh
+1. 从ci.sh开始阅读-->只是依次构建 101-107对应文件夹的Dockerfile 他们之间镜像有继承关系
+1. 自定义文件放在 files
+1. 调用和自定看对应files下docker.install.${USER}.sh 注意自己用户 sudo在基础镜像root已经去掉密码
+
 ## 0 目标
 
 1. docker镜像: rootfs ci 开发 root以及www用户
@@ -21,6 +28,8 @@
 1. 105-desktop-rdp 继承 103-user-www 镜像 安装配置
 1. 106-actions-image 继承 103-user-www 镜像 安装配置
 1. 107-desktop-dde 继承 103-user-www 镜像 安装配置
+
+
 ## 2 开发指南
 
 1. 放文件独立脚本 files
