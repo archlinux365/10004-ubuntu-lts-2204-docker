@@ -29,6 +29,8 @@
 1. vscode server
 1. linux管理面板
 1. web进程管理
+1. 添加opendde源测试dde
+1. 集成github actions镜像环境脚本 方便和github actions虚拟机环境一致
 
 
 ## 1 文件夹说明
