@@ -26,23 +26,31 @@ cd $CMD_PATH
 
 function docker_build()
 {
+	# 0
 	cd $CMD_PATH
 	cd $1
+	# 1
 	docker build . -f Dockerfile \
--t ghcr.io/${GITHUB_REPOSITORY}-$1:$GITHUB_RUN_NUMBER -t ghcr.io/${GITHUB_REPOSITORY}-$1:latest \
--t gnuhub/$PROJECT_NAME-$1:$GITHUB_RUN_NUMBER -t gnuhub/$PROJECT_NAME-$1:latest \
--t hkccr.ccs.tencentyun.com/${GITHUB_REPOSITORY}-$1:$GITHUB_RUN_NUMBER -t hkccr.ccs.tencentyun.com/${GITHUB_REPOSITORY}-$1:latest \
--t registry.cn-hangzhou.aliyuncs.com/${GITHUB_REPOSITORY}-$1:$GITHUB_RUN_NUMBER -t registry.cn-hangzhou.aliyuncs.com/${GITHUB_REPOSITORY}-$1:latest
+		-t ghcr.io/${GITHUB_REPOSITORY}-$1:$GITHUB_RUN_NUMBER \
+		-t ghcr.io/${GITHUB_REPOSITORY}-$1:latest \
+		-t gnuhub/$PROJECT_NAME-$1:$GITHUB_RUN_NUMBER \
+		-t gnuhub/$PROJECT_NAME-$1:latest \
+		-t hkccr.ccs.tencentyun.com/${GITHUB_REPOSITORY}-$1:$GITHUB_RUN_NUMBER \
+		-t hkccr.ccs.tencentyun.com/${GITHUB_REPOSITORY}-$1:latest \
+		-t registry.cn-hangzhou.aliyuncs.com/${GITHUB_REPOSITORY}-$1:$GITHUB_RUN_NUMBER  \
+		-t registry.cn-hangzhou.aliyuncs.com/${GITHUB_REPOSITORY}-$1:latest
 
-
-docker push ghcr.io/${GITHUB_REPOSITORY}-$1:$GITHUB_RUN_NUMBER
-docker push ghcr.io/${GITHUB_REPOSITORY}-$1:latest
-# docker push registry.cn-hangzhou.aliyuncs.com/${GITHUB_REPOSITORY}-$1:$GITHUB_RUN_NUMBER
-# docker push registry.cn-hangzhou.aliyuncs.com/${GITHUB_REPOSITORY}-$1:latest
-# docker push hkccr.ccs.tencentyun.com/${GITHUB_REPOSITORY}-$1:$GITHUB_RUN_NUMBER 
-# docker push hkccr.ccs.tencentyun.com/${GITHUB_REPOSITORY}-$1:latest 
-docker push gnuhub/$PROJECT_NAME-$1:$GITHUB_RUN_NUMBER
-docker push gnuhub/$PROJECT_NAME-$1:latest
+	# 2
+	docker push ghcr.io/${GITHUB_REPOSITORY}-$1:$GITHUB_RUN_NUMBER
+	docker push ghcr.io/${GITHUB_REPOSITORY}-$1:latest
+	# docker push registry.cn-hangzhou.aliyuncs.com/${GITHUB_REPOSITORY}-$1:$GITHUB_RUN_NUMBER
+	# docker push registry.cn-hangzhou.aliyuncs.com/${GITHUB_REPOSITORY}-$1:latest
+	# docker push hkccr.ccs.tencentyun.com/${GITHUB_REPOSITORY}-$1:$GITHUB_RUN_NUMBER 
+	# docker push hkccr.ccs.tencentyun.com/${GITHUB_REPOSITORY}-$1:latest 
+	docker push gnuhub/$PROJECT_NAME-$1:$GITHUB_RUN_NUMBER
+	docker push gnuhub/$PROJECT_NAME-$1:latest
+	
+	# 3
 	if [ -d versions ];then
 		rm -rf versions
 	fi
@@ -61,41 +69,9 @@ docker_build 1001001-rootfs-min
 # docker_build 107-actions-runner
 
 
-cd ~/
-git clone git@github.com:archlinux365/10004-ubuntu-lts-2204-docker.git
 
-
-function get_versions_102_user_root()
-{
-	cd ~/
-	cd 10004-ubuntu-lts-2204-docker
-	cd 102-user-root
-	rm -rf versions 
-	rm -rf etc_apt
-	cid=$(docker run -it --detach ghcr.io/archlinux365/10004-ubuntu-lts-2204-docker-102-user-root:latest)
-	docker cp ${cid}:/root/versions/ ./versions/
-	docker cp ${cid}:/etc/apt/ ./etc_apt/
-}
-
-
-
-function get_versions_107_actions_runner()
-{
-	cd ~/
-	cd 10004-ubuntu-lts-2204-docker
-	cd 107-actions-runner
-	rm -rf versions 
-	cid=$(docker run -it --detach ghcr.io/archlinux365/10004-ubuntu-lts-2204-docker-107-actions-runner:latest)
-	docker cp ${cid}:/home/runner/versions/ ./versions/
-}
-
-# get_versions_102_user_root
-# get_versions_107_actions_runner
-
-cd ~/
-cd 10004-ubuntu-lts-2204-docker
+git remote set-url origin git@github.com:archlinux365/10004-ubuntu-lts-2204-docker.git
 git add .
 git commit -a -m "CI-BOT:$(date +%Y.%m.%d-%H%M%S)-$GITHUB_REF_NAME-$GITHUB_RUN_NUMBER"
 git push origin HEAD
 
-# timeout 200 docker-compose up
