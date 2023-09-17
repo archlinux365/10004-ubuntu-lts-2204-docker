@@ -2,7 +2,7 @@ version: '3'
 
 services:
   ubuntu:
-    image: gnuhub/10003-deepin-docker-beige-www:latest
+    image: gnuhub/10004-ubuntu-lts-2204-docker-1002001-base-min:latest
     ports:
       - "10322:22"
       - "19111:9111"
