@@ -49,11 +49,12 @@ function docker_build()
 	# docker push hkccr.ccs.tencentyun.com/${GITHUB_REPOSITORY}-$1:latest 
 	docker push gnuhub/$PROJECT_NAME-$1:$GITHUB_RUN_NUMBER
 	docker push gnuhub/$PROJECT_NAME-$1:latest
-	
+
 	# 3
 	if [ -d versions ];then
 		rm -rf versions
 	fi
+	mkdir versions
 	cd versions
 	docker run ghcr.io/${GITHUB_REPOSITORY}-$1:$GITHUB_RUN_NUMBER apt list > apt.list.txt
 	docker run ghcr.io/${GITHUB_REPOSITORY}-$1:$GITHUB_RUN_NUMBER apt list --installed > apt.list.installed.txt
