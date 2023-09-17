@@ -5,7 +5,6 @@ services:
     image: gnuhub/10004-ubuntu-lts-2204-docker-1002001-base-min:latest
     ports:
       - "10322:22"
-      - "19111:9111"
     volumes:
       - ./:/home/www/dev
     environment:
