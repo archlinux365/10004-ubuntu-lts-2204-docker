@@ -45,8 +45,8 @@ docker push gnuhub/$PROJECT_NAME-$1:$GITHUB_RUN_NUMBER
 docker push gnuhub/$PROJECT_NAME-$1:latest
 }
 
-docker_build 101-rootfs
-docker_build 102-base-image
+docker_build 1100-rootfs
+docker_build 1200-base-image
 # docker_build 103-user-www
 # docker_build 104-desktop-vnc
 # docker_build 105-desktop-rdp
