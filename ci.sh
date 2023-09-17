@@ -43,6 +43,13 @@ docker push ghcr.io/${GITHUB_REPOSITORY}-$1:latest
 # docker push hkccr.ccs.tencentyun.com/${GITHUB_REPOSITORY}-$1:latest 
 docker push gnuhub/$PROJECT_NAME-$1:$GITHUB_RUN_NUMBER
 docker push gnuhub/$PROJECT_NAME-$1:latest
+	if [ -d versions ];then
+		rm -rf versions
+	fi
+	cd versions
+	docker run ghcr.io/${GITHUB_REPOSITORY}-$1:$GITHUB_RUN_NUMBER apt list > apt.list.txt
+	docker run ghcr.io/${GITHUB_REPOSITORY}-$1:$GITHUB_RUN_NUMBER apt list --installed > apt.list.installed.txt
+
 }
 
 docker_build 1001001-rootfs-min
