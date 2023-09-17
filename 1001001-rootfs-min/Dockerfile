@@ -13,5 +13,6 @@ COPY --from=build /rootfs /
 ADD sources.list /etc/apt/sources.list
 
 RUN apt update -y
+RUN apt upgrade -y
 
 CMD ["sh"]
