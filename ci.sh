@@ -62,7 +62,7 @@ function docker_build()
 }
 
 docker_build 1001001-rootfs-min
-docker_build 1200-base-image
+docker_build 1002001-base-min
 # docker_build 103-user-www
 # docker_build 104-desktop-vnc
 # docker_build 105-desktop-rdp
