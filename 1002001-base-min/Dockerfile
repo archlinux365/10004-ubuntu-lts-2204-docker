@@ -1,16 +1,15 @@
-FROM ghcr.io/archlinux365/10004-ubuntu-lts-2204-docker-1100-rootfs:latest
+FROM ghcr.io/archlinux365/10004-ubuntu-lts-2204-docker-1001001-rootfs-min:latest
 
-# 1
-ENV TERM=xterm-256color
-COPY files/ /opt/9318/
+COPY . /bd_build
 
-# 2
-USER root
-WORKDIR /root
-ENV USER=root
-ENV HOME=/root
-RUN /opt/9318/docker.install.root.sh
+RUN /bd_build/prepare.sh && \
+	/bd_build/system_services.sh && \
+	/bd_build/utilities.sh && \
+	/bd_build/cleanup.sh
 
-# 3
-RUN rm -rf /opt/9318/
+ENV DEBIAN_FRONTEND="teletype" \
+    LANG="en_US.UTF-8" \
+    LANGUAGE="en_US:en" \
+    LC_ALL="en_US.UTF-8"
 
+CMD ["/sbin/my_init"]
