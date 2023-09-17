@@ -69,6 +69,10 @@ docker pull gnuhub/10004-ubuntu-lts-2204-docker-101-rootfs:latest
 docker run -it gnuhub/10004-ubuntu-lts-2204-docker-101-rootfs:latest bash
 ```
 
+* do-1:从清华镜像创建rootfs
+* do-2:额外增加包：usrmerge,apt,ca-certificates,locales,sudo,systemd,ubuntu-keyring
+* do-3: 配置镜像源 清华大学镜像 打开 deb-src
+
 ## 4 102-user-root 继承 101-rootfs镜像 安装配置 
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/gnuhub/10004-ubuntu-lts-2204-docker-102-user-root.svg)](https://hub.docker.com/r/gnuhub/10004-ubuntu-lts-2204-docker-102-user-root/)
@@ -77,6 +81,10 @@ docker run -it gnuhub/10004-ubuntu-lts-2204-docker-101-rootfs:latest bash
 docker pull gnuhub/10004-ubuntu-lts-2204-docker-102-user-root:latest
 docker run -it gnuhub/10004-ubuntu-lts-2204-docker-102-user-root:latest bash
 ```
+* do-1: 创建用户 www runner密码 root www runner 三个用户密码都是opendde
+* do-2: 安装常用包
+* do-3: 配置runit
+* do-4: 参考 https://github.com/phusion/baseimage-docker/blob/master/README_ZH_cn_.md 解决常见问题 作为基础镜像
 
 ## 5 103-user-www 继承 102-user-root 镜像 安装配置 
 

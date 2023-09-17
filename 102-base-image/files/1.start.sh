@@ -8,4 +8,7 @@ export TERM=xterm-256color
 echo $PROJECT_NAME
 cd $CMD_PATH
 
-sudo -u root /usr/bin/supervisord -c /etc/supervisord.conf
+# sudo -u root /usr/bin/supervisord -c /etc/supervisord.conf
+
+# 启动systemd
+sudo /usr/sbin/init

@@ -24,10 +24,14 @@ apt install -y osc
 apt install -y supervisor
 apt install -y rsync
 apt install -y sudo
-
 apt install -y kpartx
 apt install -y extlinux
-
+apt install -y vim
+apt install -y psmisc 
+apt install -y gpg-agent 
+apt install -y dirmngr
+apt install -y runit
+apt install -y python3
 
 rsync -avzP ./supervisord/ /etc/
 chmod +x 1.start.sh

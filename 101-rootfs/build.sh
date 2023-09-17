@@ -18,7 +18,7 @@ debootstrap \
 --arch=amd64 \
 --no-check-gpg \
 --variant=minbase \
---include=usrmerge,apt,ca-certificates,locales,sudo,systemd,ubuntu-keyring  \
+--include=usrmerge,apt,ca-certificates,locales,sudo,ubuntu-keyring  \
 --components=main,multiverse,restricted,universe \
 jammy \
 /rootfs \
