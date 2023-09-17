@@ -45,8 +45,8 @@ docker push gnuhub/$PROJECT_NAME-$1:$GITHUB_RUN_NUMBER
 docker push gnuhub/$PROJECT_NAME-$1:latest
 }
 
-docker_build 1100-rootfs
-docker_build 1200-base-image
+docker_build 1001001-rootfs-min
+# docker_build 1200-base-image
 # docker_build 103-user-www
 # docker_build 104-desktop-vnc
 # docker_build 105-desktop-rdp
@@ -82,7 +82,7 @@ function get_versions_107_actions_runner()
 	docker cp ${cid}:/home/runner/versions/ ./versions/
 }
 
-get_versions_102_user_root
+# get_versions_102_user_root
 # get_versions_107_actions_runner
 
 cd ~/
