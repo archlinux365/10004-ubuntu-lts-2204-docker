@@ -51040,7 +51040,7 @@ live-manual-pdf/jammy 2:20151217.1 all
 live-manual-txt/jammy 2:20151217.1 all
 live-manual/jammy 2:20151217.1 all
 live-tools/jammy 1:20190831build1 all
-livecd-rootfs/jammy-updates 2.765.24 amd64
+livecd-rootfs/jammy-updates 2.765.25 amd64
 lives-data/jammy 3.0.2-1.1ubuntu1 all
 lives-plugins/jammy 3.0.2-1.1ubuntu1 amd64
 lives/jammy 3.0.2-1.1ubuntu1 amd64
