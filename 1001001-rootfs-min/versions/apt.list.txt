@@ -40820,9 +40820,9 @@ libtoml-parser-perl/jammy 0.91-1 all
 libtoml-perl/jammy 0.97-1 all
 libtoml-tiny-perl/jammy 0.15-1 all
 libtoml11-dev/jammy 3.7.0-2 all
-libtommath-dev/jammy 1.2.0-6build3 amd64
-libtommath-doc/jammy 1.2.0-6build3 all
-libtommath1/jammy 1.2.0-6build3 amd64
+libtommath-dev/jammy-updates,jammy-security 1.2.0-6ubuntu0.22.04.1 amd64
+libtommath-doc/jammy-updates,jammy-security 1.2.0-6ubuntu0.22.04.1 all
+libtommath1/jammy-updates,jammy-security 1.2.0-6ubuntu0.22.04.1 amd64
 libtomoyotools3/jammy 2.6.1-20210910-1 amd64
 libtonezone-dev/jammy 1:3.1.0-2 amd64
 libtonezone2.0/jammy 1:3.1.0-2 amd64
@@ -41806,9 +41806,9 @@ libvpl-dev/jammy 2022.1.0-2 amd64
 libvpl2/jammy 2022.1.0-2 amd64
 libvpoll-dev/jammy-updates 0.1-2ubuntu1 amd64
 libvpoll0/jammy-updates 0.1-2ubuntu1 amd64
-libvpx-dev/jammy 1.11.0-2ubuntu2 amd64
-libvpx-doc/jammy 1.11.0-2ubuntu2 all
-libvpx7/jammy 1.11.0-2ubuntu2 amd64
+libvpx-dev/jammy-updates,jammy-security 1.11.0-2ubuntu2.2 amd64
+libvpx-doc/jammy-updates,jammy-security 1.11.0-2ubuntu2.2 all
+libvpx7/jammy-updates,jammy-security 1.11.0-2ubuntu2.2 amd64
 libvshadow-dev/jammy 20190323-2build1 amd64
 libvshadow-utils/jammy 20190323-2build1 amd64
 libvshadow1/jammy 20190323-2build1 amd64
@@ -43760,7 +43760,7 @@ linux-crashdump/jammy-updates,jammy-security 5.15.0.84.81 amd64
 linux-doc/jammy-updates,jammy-security 5.15.0-84.93 all
 linux-firmware-xilinx-ap1302/jammy 2021.1-0ubuntu1 all
 linux-firmware-xilinx-vcu/jammy 2020.2-0ubuntu1 all
-linux-firmware/jammy-updates 20220329.git681281e4-0ubuntu3.18 all
+linux-firmware/jammy-updates 20220329.git681281e4-0ubuntu3.19 all
 linux-gcp-5.19-headers-5.19.0-1022/jammy-updates,jammy-security 5.19.0-1022.24~22.04.1 amd64
 linux-gcp-5.19-headers-5.19.0-1024/jammy-updates,jammy-security 5.19.0-1024.26~22.04.1 amd64
 linux-gcp-5.19-headers-5.19.0-1025/jammy-updates,jammy-security 5.19.0-1025.27~22.04.1 amd64
@@ -72229,7 +72229,7 @@ vpnc-scripts/jammy 0.1~git20210402-1 all
 vpnc/jammy 0.5.3+git20210125-1 amd64
 vpoll-dkms/jammy-updates 0.1-2ubuntu1 all
 vprerex/jammy 1:6.5.1-1build1 amd64
-vpx-tools/jammy 1.11.0-2ubuntu2 amd64
+vpx-tools/jammy-updates,jammy-security 1.11.0-2ubuntu2.2 amd64
 vramsteg/jammy 1.1.0-1build2 amd64
 vrfy/jammy 990522-11 amd64
 vrfydmn/jammy 0.11.0-2 all
