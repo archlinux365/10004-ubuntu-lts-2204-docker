@@ -13140,11 +13140,11 @@ grub-common/jammy-updates 2.06-2ubuntu7.2 amd64
 grub-coreboot-bin/jammy-updates 2.06-2ubuntu7.2 amd64
 grub-coreboot-dbg/jammy-updates 2.06-2ubuntu7.2 amd64
 grub-coreboot/jammy-updates 2.06-2ubuntu7.2 amd64
-grub-efi-amd64-bin/jammy-updates 2.06-2ubuntu14.2 amd64
-grub-efi-amd64-dbg/jammy-updates 2.06-2ubuntu14.2 amd64
+grub-efi-amd64-bin/jammy-updates,jammy-security 2.06-2ubuntu14.4 amd64
+grub-efi-amd64-dbg/jammy-updates,jammy-security 2.06-2ubuntu14.4 amd64
 grub-efi-amd64-signed-template/jammy-updates 2.06-2ubuntu7.2 amd64
-grub-efi-amd64-signed/jammy-updates 1.187.4~22.04.1+2.06-2ubuntu14.2 amd64
-grub-efi-amd64/jammy-updates 2.06-2ubuntu14.2 amd64
+grub-efi-amd64-signed/jammy-updates,jammy-security 1.187.6+2.06-2ubuntu14.4 amd64
+grub-efi-amd64/jammy-updates,jammy-security 2.06-2ubuntu14.4 amd64
 grub-efi-ia32-bin/jammy-updates 2.06-2ubuntu7.2 amd64
 grub-efi-ia32-dbg/jammy-updates 2.06-2ubuntu7.2 amd64
 grub-efi-ia32/jammy-updates 2.06-2ubuntu7.2 amd64
