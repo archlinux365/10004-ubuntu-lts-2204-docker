@@ -2981,7 +2981,7 @@ closure-compiler/jammy 20130227+dfsg1-10.1 all
 cloud-enum/jammy 0.6-2 all
 cloud-guest-utils/jammy 0.32-22-g45fe84a5-0ubuntu1 all
 cloud-image-utils/jammy 0.32-22-g45fe84a5-0ubuntu1 all
-cloud-init/jammy-updates 23.2.2-0ubuntu0~22.04.1 all
+cloud-init/jammy-updates 23.3.1-0ubuntu1~22.04.1 all
 cloud-initramfs-copymods/jammy 0.47ubuntu1 all
 cloud-initramfs-dyn-netconf/jammy 0.47ubuntu1 all
 cloud-initramfs-growroot/jammy 0.47ubuntu1 all
