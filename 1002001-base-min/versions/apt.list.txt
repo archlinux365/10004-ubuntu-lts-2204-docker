@@ -72641,20 +72641,20 @@ vim-addon-mw-utils/jammy 0.2-4 all
 vim-airline-themes/jammy 0+git.20180730-6e798f9-1.1 all
 vim-airline/jammy 0.11-1 all
 vim-ale/jammy 3.1.0-1 all
-vim-athena/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.11 amd64
+vim-athena/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.12 amd64
 vim-autopep8/jammy 1.2.0-2 all
 vim-bitbake/jammy 0~git20220408-1 all
 vim-command-t/jammy 5.0.2-5-g7147ba9-1build2 amd64
-vim-common/jammy-updates,jammy-security,now 2:8.2.3995-1ubuntu2.11 all [installed,automatic]
+vim-common/jammy-updates,jammy-security,now 2:8.2.3995-1ubuntu2.12 all [installed,automatic]
 vim-ctrlp/jammy 1.81-1 all
-vim-doc/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.11 all
+vim-doc/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.12 all
 vim-editorconfig/jammy 0.3.3+dfsg-2.1 all
 vim-fugitive/jammy 3.4-1 all
 vim-git-hub/jammy 2.1.3-1 all
 vim-gitgutter/jammy 0~20200414-2 all
-vim-gtk3/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.11 amd64
-vim-gtk/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.11 all
-vim-gui-common/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.11 all
+vim-gtk3/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.12 amd64
+vim-gtk/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.12 all
+vim-gui-common/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.12 all
 vim-haproxy/jammy-updates,jammy-security 2.4.22-0ubuntu0.22.04.2 all
 vim-icinga2/jammy 2.13.2-1build2 all
 vim-julia/jammy 0.0~git20211208.e497299-1 all
@@ -72663,14 +72663,14 @@ vim-lastplace/jammy 3.1.1-2 all
 vim-latexsuite/jammy 1:1.10.0-1 all
 vim-ledger/jammy 1.2.0-2 all
 vim-migemo/jammy 1:1.2+gh0.20150404-7.1 all
-vim-nox/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.11 amd64
+vim-nox/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.12 amd64
 vim-pathogen/jammy 2.4-5 all
 vim-poke/jammy 2.1+dfsg-2 all
 vim-puppet/jammy 4~20181115+git4793b074-2 all
 vim-python-jedi/jammy 0.18.0-1 all
 vim-rails/jammy 4.5~20110829-2 all
 vim-redact-pass/jammy 1.7.4-5 all
-vim-runtime/jammy-updates,jammy-security,now 2:8.2.3995-1ubuntu2.11 all [installed,automatic]
+vim-runtime/jammy-updates,jammy-security,now 2:8.2.3995-1ubuntu2.12 all [installed,automatic]
 vim-scripts/jammy 20210124.2 all
 vim-snipmate/jammy 0.87-6 all
 vim-snippets/jammy 1.0.0-7 all
@@ -72681,7 +72681,7 @@ vim-syntax-docker/jammy-updates 20.10.21-0ubuntu1~22.04.5 all
 vim-syntax-gtk/jammy 20110314-1.1 all
 vim-tabular/jammy 1.0-6 all
 vim-textobj-user/jammy 0.7.6-2 all
-vim-tiny/jammy-updates,jammy-security,now 2:8.2.3995-1ubuntu2.11 amd64 [installed]
+vim-tiny/jammy-updates,jammy-security,now 2:8.2.3995-1ubuntu2.12 amd64 [installed]
 vim-tjp/jammy 3.7.1-1 all
 vim-tlib/jammy 1.27-5 all
 vim-ultisnips/jammy 3.1-3.1 all
@@ -72690,7 +72690,7 @@ vim-vimerl-syntax/jammy 1.4.1+git20120509.89111c7-2.1 all
 vim-vimerl/jammy 1.4.1+git20120509.89111c7-2.1 all
 vim-voom/jammy 5.3-8 all
 vim-youcompleteme/jammy 0+20200825+git2afee9d+ds-2 all
-vim/jammy-updates,jammy-security,now 2:8.2.3995-1ubuntu2.11 amd64 [installed]
+vim/jammy-updates,jammy-security,now 2:8.2.3995-1ubuntu2.12 amd64 [installed]
 vinagre/jammy 3.22.0-8ubuntu2 amd64
 vinetto/jammy 1:0.8.0-3 all
 vino/jammy 3.22.0-6ubuntu3 amd64
@@ -74199,7 +74199,7 @@ xwit/jammy 3.4-16 amd64
 xwpe/jammy 1.5.30a-3 amd64
 xwrited/jammy 3-1 amd64
 xwrits/jammy 2.21-6.1build1 amd64
-xxd/jammy-updates,jammy-security,now 2:8.2.3995-1ubuntu2.11 amd64 [installed,automatic]
+xxd/jammy-updates,jammy-security,now 2:8.2.3995-1ubuntu2.12 amd64 [installed,automatic]
 xxdiff-scripts/jammy 1:5.0~b1+git20211103+dfsg-1 all
 xxdiff/jammy 1:5.0~b1+git20211103+dfsg-1 amd64
 xxhash/jammy 0.8.1-1 amd64
