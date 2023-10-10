@@ -4698,7 +4698,9 @@ docbook5-xml/jammy 5.0-3 all
 docbook/jammy 4.5-9 all
 docdiff/jammy 0.6.0-1 all
 dochelp/jammy 0.1.8 amd64
+docker-buildx/jammy-updates 0.11.2-0ubuntu1~22.04.1 amd64
 docker-clean/jammy 2.0.4-4 all
+docker-compose-v2/jammy-updates 2.20.2+ds1-0ubuntu1~22.04.1 amd64
 docker-compose/jammy 1.29.2-1 all
 docker-doc/jammy-updates 24.0.5-0ubuntu1~22.04.1 all
 docker-registry/jammy 2.8.0+ds1-4 amd64
@@ -20151,8 +20153,8 @@ libcuda1-384/jammy-updates,jammy-security 390.157-0ubuntu0.22.04.2 amd64
 libcudart11.0/jammy 11.5.117~11.5.1-1ubuntu1 amd64
 libcudf-dev/jammy 0.9-2build3 amd64
 libcudf-ocaml-dev/jammy 0.9-2build3 amd64
-libcue-dev/jammy 2.2.1-3build3 amd64
-libcue2/jammy 2.2.1-3build3 amd64
+libcue-dev/jammy-updates,jammy-security 2.2.1-3ubuntu0.1 amd64
+libcue2/jammy-updates,jammy-security 2.2.1-3ubuntu0.1 amd64
 libcufft10/jammy 11.1.1+~10.6.0.107~11.5.1-1ubuntu1 amd64
 libcufftw10/jammy 11.1.1+~10.6.0.107~11.5.1-1ubuntu1 amd64
 libcuinj64-11.5/jammy 11.5.114~11.5.1-1ubuntu1 amd64
