@@ -231,7 +231,7 @@ libstdc++6/jammy-updates,jammy-security,now 12.3.0-1ubuntu1~22.04 amd64 [install
 libstemmer0d/jammy,now 2.2.0-1build1 amd64 [installed,automatic]
 libsystemd0/jammy-updates,now 249.11-0ubuntu3.10 amd64 [installed]
 libtasn1-6/jammy,now 4.18.0-4build1 amd64 [installed]
-libtiff5/jammy-updates,jammy-security,now 4.3.0-6ubuntu0.5 amd64 [installed,automatic]
+libtiff5/jammy-updates,jammy-security,now 4.3.0-6ubuntu0.6 amd64 [installed,automatic]
 libtinfo6/jammy-updates,jammy-security,now 6.3-2ubuntu0.1 amd64 [installed]
 libtirpc-common/jammy-updates,jammy-security,now 1.3.2-2ubuntu0.1 all [installed]
 libtirpc-dev/jammy-updates,jammy-security,now 1.3.2-2ubuntu0.1 amd64 [installed,automatic]
