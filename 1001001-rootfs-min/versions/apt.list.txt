@@ -51308,7 +51308,7 @@ linux-starfive-5.19-headers-5.19.0-1017/jammy-updates,jammy-security 5.19.0-1017
 linux-starfive-5.19-headers-5.19.0-1018/jammy-updates,jammy-security 5.19.0-1018.20~22.04.1 all
 linux-starfive-5.19-headers-5.19.0-1019/jammy-updates,jammy-security 5.19.0-1019.21~22.04.1 all
 linux-starfive-5.19-headers-5.19.0-1020/jammy-updates,jammy-security 5.19.0-1020.22~22.04.1 all
-linux-starfive-6.2-headers-6.2.0-1006/jammy-updates 6.2.0-1006.7~22.04.1 all
+linux-starfive-6.2-headers-6.2.0-1006/jammy-updates,jammy-security 6.2.0-1006.7~22.04.1 all
 linux-tools-5.15.0-1002-gke/jammy 5.15.0-1002.2 amd64
 linux-tools-5.15.0-1002-ibm/jammy 5.15.0-1002.2 amd64
 linux-tools-5.15.0-1002-oracle/jammy 5.15.0-1002.4 amd64
