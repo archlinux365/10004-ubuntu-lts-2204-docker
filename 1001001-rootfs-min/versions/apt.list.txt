@@ -9394,9 +9394,9 @@ ghi/jammy 1.2.0-1.1 all
 ghkl/jammy 5.0.0.2875-1 amd64
 ghmm/jammy 0.9~rc3-4 amd64
 ghostess/jammy 20120105-1build2 amd64
-ghostscript-doc/jammy-updates,jammy-security 9.55.0~dfsg1-0ubuntu5.4 all
-ghostscript-x/jammy-updates,jammy-security 9.55.0~dfsg1-0ubuntu5.4 amd64
-ghostscript/jammy-updates,jammy-security 9.55.0~dfsg1-0ubuntu5.4 amd64
+ghostscript-doc/jammy-updates,jammy-security 9.55.0~dfsg1-0ubuntu5.5 all
+ghostscript-x/jammy-updates,jammy-security 9.55.0~dfsg1-0ubuntu5.5 amd64
+ghostscript/jammy-updates,jammy-security 9.55.0~dfsg1-0ubuntu5.5 amd64
 ghostwriter/jammy 2.1.1-1 amd64
 ghp-import/jammy 0.5.5-3 all
 gi-docgen-doc/jammy 2022.1+ds-1 all
@@ -14571,7 +14571,7 @@ ironseed-data/jammy 0.3.6-5 all
 ironseed/jammy 0.3.6-5 amd64
 irony-server/jammy 1.5.0-2 amd64
 irpas/jammy 0.10-9 amd64
-irqbalance/jammy 1.8.0-1build1 amd64
+irqbalance/jammy-updates 1.8.0-1ubuntu0.1 amd64
 irqtop/jammy 2.6-2ubuntu1 all
 irsim/jammy 9.7.104-1 amd64
 irssi-dev/jammy 1.2.3-1ubuntu4 amd64
@@ -27431,9 +27431,9 @@ libgrpc10/jammy 1.30.2-3build6 amd64
 libgrss-dev/jammy 0.7.0-2 amd64
 libgrss0/jammy 0.7.0-2 amd64
 libgs-collections-java/jammy 5.1.0-4 all
-libgs-dev/jammy-updates,jammy-security 9.55.0~dfsg1-0ubuntu5.4 amd64
-libgs9-common/jammy-updates,jammy-security 9.55.0~dfsg1-0ubuntu5.4 all
-libgs9/jammy-updates,jammy-security 9.55.0~dfsg1-0ubuntu5.4 amd64
+libgs-dev/jammy-updates,jammy-security 9.55.0~dfsg1-0ubuntu5.5 amd64
+libgs9-common/jammy-updates,jammy-security 9.55.0~dfsg1-0ubuntu5.5 all
+libgs9/jammy-updates,jammy-security 9.55.0~dfsg1-0ubuntu5.5 amd64
 libgsasl-dev/jammy 1.10.0-5 amd64
 libgsasl7-dev/jammy 1.10.0-5 amd64
 libgsasl7/jammy 1.10.0-5 amd64
