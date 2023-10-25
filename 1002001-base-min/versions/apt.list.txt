@@ -940,9 +940,9 @@ aspell-zu/jammy 20070207-5ubuntu3 all
 aspell/jammy 0.60.8-4build1 amd64
 aspic/jammy 1.05-4build1 amd64
 aspnetcore-runtime-6.0/jammy-updates,jammy-security 6.0.124-0ubuntu1~22.04.1 amd64
-aspnetcore-runtime-7.0/jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
+aspnetcore-runtime-7.0/jammy-updates,jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
 aspnetcore-targeting-pack-6.0/jammy-updates,jammy-security 6.0.124-0ubuntu1~22.04.1 amd64
-aspnetcore-targeting-pack-7.0/jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
+aspnetcore-targeting-pack-7.0/jammy-updates,jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
 asql/jammy 1.6-1.1 all
 assaultcube-data/jammy 1.2.0.2.1-3 all
 assaultcube/jammy 1.2.0.2.1-2build1 amd64
@@ -4764,23 +4764,23 @@ dotenv/jammy 0.15.0-2build1 amd64
 dothost/jammy 0.2-6 amd64
 dotmcp/jammy 0.2.2.1-3build1 amd64
 dotnet-apphost-pack-6.0/jammy-updates,jammy-security 6.0.124-0ubuntu1~22.04.1 amd64
-dotnet-apphost-pack-7.0/jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
-dotnet-host-7.0/jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
+dotnet-apphost-pack-7.0/jammy-updates,jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
+dotnet-host-7.0/jammy-updates,jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
 dotnet-host/jammy-updates,jammy-security 6.0.124-0ubuntu1~22.04.1 amd64
 dotnet-hostfxr-6.0/jammy-updates,jammy-security 6.0.124-0ubuntu1~22.04.1 amd64
-dotnet-hostfxr-7.0/jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
+dotnet-hostfxr-7.0/jammy-updates,jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
 dotnet-runtime-6.0/jammy-updates,jammy-security 6.0.124-0ubuntu1~22.04.1 amd64
-dotnet-runtime-7.0/jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
+dotnet-runtime-7.0/jammy-updates,jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
 dotnet-sdk-6.0-source-built-artifacts/jammy-updates,jammy-security 6.0.124-0ubuntu1~22.04.1 amd64
 dotnet-sdk-6.0/jammy-updates,jammy-security 6.0.124-0ubuntu1~22.04.1 amd64
-dotnet-sdk-7.0-source-built-artifacts/jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
-dotnet-sdk-7.0/jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
+dotnet-sdk-7.0-source-built-artifacts/jammy-updates,jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
+dotnet-sdk-7.0/jammy-updates,jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
 dotnet-targeting-pack-6.0/jammy-updates,jammy-security 6.0.124-0ubuntu1~22.04.1 amd64
-dotnet-targeting-pack-7.0/jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
+dotnet-targeting-pack-7.0/jammy-updates,jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
 dotnet-templates-6.0/jammy-updates,jammy-security 6.0.124-0ubuntu1~22.04.1 amd64
-dotnet-templates-7.0/jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
+dotnet-templates-7.0/jammy-updates,jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
 dotnet6/jammy-updates,jammy-security 6.0.124-0ubuntu1~22.04.1 amd64
-dotnet7/jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
+dotnet7/jammy-updates,jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
 dotter/jammy 4.44.1+dfsg-7build1 amd64
 doublecmd-common/jammy 1.0.5-1 all
 doublecmd-gtk/jammy 1.0.5-1 amd64
@@ -28816,7 +28816,7 @@ libiv-unidraw2/jammy 2.0.11d.a1-1build1 amd64
 libiv2/jammy 2.0.11d.a1-1build1 amd64
 libivykis-dev/jammy 0.42.4-1 amd64
 libivykis0-dbg/jammy 0.42.4-1 amd64
-libivykis0/jammy,now 0.42.4-1 amd64 [installed,automatic]
+libivykis0/jammy 0.42.4-1 amd64
 libiw-dev/jammy 30~pre9-13.1ubuntu4 amd64
 libiw30/jammy 30~pre9-13.1ubuntu4 amd64
 libixion-0.17-0/jammy 0.17.0-3build1 amd64
@@ -32919,7 +32919,7 @@ libnet-z3950-zoom-perl/jammy 1.30-3build2 amd64
 libnet1-dbg/jammy 1.1.6+dfsg-3.1build3 amd64
 libnet1-dev/jammy 1.1.6+dfsg-3.1build3 amd64
 libnet1-doc/jammy 1.1.6+dfsg-3.1build3 all
-libnet1/jammy,now 1.1.6+dfsg-3.1build3 amd64 [installed,automatic]
+libnet1/jammy 1.1.6+dfsg-3.1build3 amd64
 libnetaddr-ip-perl/jammy 4.079+dfsg-1build7 amd64
 libnetapp-perl/jammy 500.002-2 all
 libnetcdf-c++4-1/jammy 4.3.1-3build1 amd64
@@ -42501,7 +42501,7 @@ libxeus-python0/jammy 0.12.5-1build1 amd64
 libxeus1/jammy 1.0.4-1build1 amd64
 libxext-dev/jammy 2:1.3.4-1build1 amd64
 libxext-doc/jammy 2:1.3.4-1build1 all
-libxext6/jammy 2:1.3.4-1build1 amd64
+libxext6/jammy,now 2:1.3.4-1build1 amd64 [installed,automatic]
 libxfce4panel-2.0-4/jammy 4.16.3-1 amd64
 libxfce4panel-2.0-dev/jammy 4.16.3-1 amd64
 libxfce4ui-2-0/jammy 4.16.1-1 amd64
@@ -42765,7 +42765,7 @@ libxmu-dev/jammy 2:1.1.3-3 amd64
 libxmu-headers/jammy 2:1.1.3-3 all
 libxmu6/jammy 2:1.1.3-3 amd64
 libxmuu-dev/jammy 2:1.1.3-3 amd64
-libxmuu1/jammy 2:1.1.3-3 amd64
+libxmuu1/jammy,now 2:1.1.3-3 amd64 [installed,automatic]
 libxnee-dev/jammy 3.19-8 amd64
 libxnee0/jammy 3.19-8 amd64
 libxneur-dev/jammy 0.20.0-3 amd64
@@ -52373,7 +52373,7 @@ logisim/jammy 2.7.1~dfsg-4 all
 logitech-applet/jammy 0.4~test1-0ubuntu3 amd64
 logol-bin/jammy 1.7.9+dfsg-1build1 amd64
 logol/jammy 1.7.9+dfsg-1build1 all
-logrotate/jammy-updates,jammy-security,now 3.19.0-1ubuntu1.1 amd64 [installed]
+logrotate/jammy-updates,jammy-security 3.19.0-1ubuntu1.1 amd64
 logsave/jammy-updates,jammy-security,now 1.46.5-2ubuntu1.1 amd64 [installed]
 logstalgia/jammy 1.1.0-2build3 amd64
 logswan/jammy 2.1.12-1 amd64
@@ -54532,7 +54532,7 @@ ncurses-bin/jammy-updates,jammy-security,now 6.3-2ubuntu0.1 amd64 [installed]
 ncurses-doc/jammy-updates,jammy-security 6.3-2ubuntu0.1 all
 ncurses-examples/jammy-updates,jammy-security 6.3-2ubuntu0.1 amd64
 ncurses-hexedit/jammy 0.9.7+orig-7.1 amd64
-ncurses-term/jammy-updates,jammy-security 6.3-2ubuntu0.1 all
+ncurses-term/jammy-updates,jammy-security,now 6.3-2ubuntu0.1 all [installed,automatic]
 ncview/jammy 2.1.8+ds-4build1 amd64
 nd/jammy 0.8.2-8build1 amd64
 ndctl/jammy 72.1-1 amd64
@@ -54629,7 +54629,7 @@ netscript-ipfilter/jammy 5.5.5 all
 netsed/jammy 1.2-3 amd64
 netsend/jammy 0.0~svnr250-1.4 amd64
 netsniff-ng/jammy 0.6.8-2build1 amd64
-netstandard-targeting-pack-2.1-7.0/jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
+netstandard-targeting-pack-2.1-7.0/jammy-updates,jammy-security 7.0.113-0ubuntu1~22.04.1 amd64
 netstandard-targeting-pack-2.1/jammy-updates,jammy-security 6.0.124-0ubuntu1~22.04.1 amd64
 netstat-nat/jammy 1.4.10-3build1 amd64
 netstress/jammy 1.2.0-10 amd64
@@ -70356,7 +70356,7 @@ ssh-contact-client/jammy 0.7-1.1 amd64
 ssh-contact-service/jammy 0.7-1.1 amd64
 ssh-contact/jammy 0.7-1.1 all
 ssh-cron/jammy 1.03.00-1 amd64
-ssh-import-id/jammy 5.11-0ubuntu1 all
+ssh-import-id/jammy,now 5.11-0ubuntu1 all [installed,automatic]
 ssh-tools/jammy 1.7-2 all
 ssh/jammy-updates 1:8.9p1-3ubuntu0.4 all
 sshcommand/jammy 0~20160110.1~2795f65-1.1 all
@@ -70842,7 +70842,7 @@ syslinux-common/jammy,now 3:6.04~git20190206.bf6db5b4+dfsg1-3ubuntu1 all [instal
 syslinux-efi/jammy 3:6.04~git20190206.bf6db5b4+dfsg1-3ubuntu1 all
 syslinux-utils/jammy 3:6.04~git20190206.bf6db5b4+dfsg1-3ubuntu1 amd64
 syslinux/jammy 3:6.04~git20190206.bf6db5b4+dfsg1-3ubuntu1 amd64
-syslog-ng-core/jammy,now 3.35.1-1 amd64 [installed]
+syslog-ng-core/jammy 3.35.1-1 amd64
 syslog-ng-dbg/jammy 3.35.1-1 amd64
 syslog-ng-dev/jammy 3.35.1-1 amd64
 syslog-ng-mod-add-contextual-data/jammy 3.35.1-1 amd64
@@ -74086,7 +74086,7 @@ xarclock/jammy 1.0-17 amd64
 xastir-data/jammy 2.1.6-4 all
 xastir/jammy 2.1.6-4 amd64
 xattr/jammy 0.9.7-1build4 amd64
-xauth/jammy 1:1.1-1build2 amd64
+xauth/jammy,now 1:1.1-1build2 amd64 [installed,automatic]
 xautolock/jammy 1:2.2-7 amd64
 xautomation/jammy 1.09-4 amd64
 xavante-doc/jammy 2.3.0-1.1 all
