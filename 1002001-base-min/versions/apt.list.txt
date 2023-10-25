@@ -4561,7 +4561,7 @@ distcc-pump/jammy 3.4+really3.3.5-3build1 amd64
 distcc/jammy 3.4+really3.3.5-3build1 amd64
 distccmon-gnome/jammy 3.4+really3.3.5-3build1 amd64
 distributed-net/jammy 2.9112.521+arm64-2 amd64
-distro-info-data/jammy-updates,now 0.52ubuntu0.4 all [installed,automatic]
+distro-info-data/jammy-updates,now 0.52ubuntu0.5 all [installed,automatic]
 distro-info/jammy-updates,now 1.1ubuntu0.1 amd64 [installed,automatic]
 disulfinder-data/jammy 1.2.11-12 all
 disulfinder/jammy 1.2.11-12 amd64
@@ -39394,12 +39394,12 @@ libssh-gcrypt-4/jammy-updates,jammy-security 0.9.6-2ubuntu0.22.04.1 amd64
 libssh-gcrypt-dev/jammy-updates,jammy-security 0.9.6-2ubuntu0.22.04.1 amd64
 libssh2-1-dev/jammy 1.10.0-3 amd64
 libssh2-1/jammy 1.10.0-3 amd64
-libssl-dev/jammy-updates,jammy-security 3.0.2-0ubuntu1.10 amd64
-libssl-doc/jammy-updates,jammy-security 3.0.2-0ubuntu1.10 all
+libssl-dev/jammy-updates,jammy-security 3.0.2-0ubuntu1.12 amd64
+libssl-doc/jammy-updates,jammy-security 3.0.2-0ubuntu1.12 all
 libssl-ocaml-dev/jammy 0.5.10-1build2 amd64
 libssl-ocaml/jammy 0.5.10-1build2 amd64
 libssl-utils-clojure/jammy 3.3.0-1 all
-libssl3/jammy-updates,jammy-security,now 3.0.2-0ubuntu1.10 amd64 [installed]
+libssl3/jammy-updates,jammy-security,now 3.0.2-0ubuntu1.12 amd64 [installed]
 libssm-bin/jammy 1.4.0-2 amd64
 libssm-dev/jammy 1.4.0-2 amd64
 libssm2/jammy 1.4.0-2 amd64
@@ -57489,7 +57489,7 @@ openssh-known-hosts/jammy 0.6.2-1.1 all
 openssh-server/jammy-updates,now 1:8.9p1-3ubuntu0.4 amd64 [installed]
 openssh-sftp-server/jammy-updates,now 1:8.9p1-3ubuntu0.4 amd64 [installed,automatic]
 openssh-tests/jammy-updates 1:8.9p1-3ubuntu0.4 amd64
-openssl/jammy-updates,jammy-security,now 3.0.2-0ubuntu1.10 amd64 [installed]
+openssl/jammy-updates,jammy-security,now 3.0.2-0ubuntu1.12 amd64 [installed]
 openssn-data/jammy 1.4-3build1 all
 openssn/jammy 1.4-3build1 amd64
 opensta-dev/jammy 0~20191111gitc018cb2+dfsg-1build1 amd64
